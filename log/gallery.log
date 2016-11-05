@@ -1,0 +1,1158 @@
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-10-29 16:44:15.730918937 +0800 CST
+[34mINFO[0m[0063]                                              
+[34mINFO[0m[0063] GET /api/v1/apps for 127.0.0.1:6008 used time: 188.755µs 
+[34mINFO[0m[1574]                                              
+[34mINFO[0m[1574] GET /api/v1/apps for 192.168.1.109:6008 used time: 29.116µs 
+[34mINFO[0m[1575]                                              
+[34mINFO[0m[1575] GET /favicon.ico for 192.168.1.109:6008 used time: 933.765µs 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-10-29 17:17:48.663033586 +0800 CST
+[34mINFO[0m[0004]                                              
+[34mINFO[0m[0004] GET /api/v1/apps for 127.0.0.1:6008 used time: 13.377µs 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-10-29 17:18:36.350322751 +0800 CST
+[34mINFO[0m[0003]                                              
+[34mINFO[0m[0003] GET /api/v1/apps for 127.0.0.1:6008 used time: 11.682µs 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-10-29 17:19:18.784960812 +0800 CST
+[34mINFO[0m[0007]                                              
+[34mINFO[0m[0007] GET /api/v1/apps for 127.0.0.1:6008 used time: 14.531µs 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-10-29 17:22:14.331948749 +0800 CST
+[34mINFO[0m[0004]                                              
+[34mINFO[0m[0004] GET /api/v1/apps for 127.0.0.1:6008 used time: 14.32µs 
+[34mINFO[0m[0005]                                              
+[34mINFO[0m[0005] GET /api/v1/apps for 127.0.0.1:6008 used time: 9.204µs 
+[34mINFO[0m[1288]                                              
+[34mINFO[0m[1288] POST /api/h5/getH5Url for 192.168.1.109:6008 used time: 15.707µs 
+[34mINFO[0m[1289]                                              
+[34mINFO[0m[1289] GET /api/v1/apps for 192.168.1.109:6008 used time: 7.781µs 
+[34mINFO[0m[1291]                                              
+[34mINFO[0m[1291] POST /api/h5/getH5Url for 192.168.1.109:6008 used time: 11.628µs 
+[34mINFO[0m[1291]                                              
+[34mINFO[0m[1291] POST /api/customer/home/info for 192.168.1.109:6008 used time: 11.352µs 
+[34mINFO[0m[1298]                                              
+[34mINFO[0m[1298] GET /api/v1/apps for 192.168.1.109:6008 used time: 8.661µs 
+[34mINFO[0m[1298]                                              
+[34mINFO[0m[1298] POST /api/index/listCate for 192.168.1.109:6008 used time: 8.246µs 
+[34mINFO[0m[1298]                                              
+[34mINFO[0m[1298] POST /api/information/list for 192.168.1.109:6008 used time: 11.105µs 
+[34mINFO[0m[1298]                                              
+[34mINFO[0m[1298] POST /api/message/home/get for 192.168.1.109:6008 used time: 21.02µs 
+[34mINFO[0m[1298]                                              
+[34mINFO[0m[1298] POST /api/customer/home/info for 192.168.1.109:6008 used time: 11.606µs 
+[34mINFO[0m[1298]                                              
+[34mINFO[0m[1298] POST /api/message/home/get for 192.168.1.109:6008 used time: 10.985µs 
+[34mINFO[0m[1298]                                              
+[34mINFO[0m[1298] POST /api/customer/home/info for 192.168.1.109:6008 used time: 10.677µs 
+[34mINFO[0m[1414]                                              
+[34mINFO[0m[1414] GET /api/v1/apps for 192.168.1.109:6008 used time: 15.034µs 
+[34mINFO[0m[1414]                                              
+[34mINFO[0m[1414] POST /api/h5/getH5Url for 192.168.1.109:6008 used time: 6.872µs 
+[34mINFO[0m[1532]                                              
+[34mINFO[0m[1532] GET /api/v1/apps for 127.0.0.1:6008 used time: 34.535µs 
+[34mINFO[0m[1847]                                              
+[34mINFO[0m[1847] GET /api/v1/apps for 192.168.1.109:6008 used time: 10.459µs 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-10-29 17:57:07.575948773 +0800 CST
+[34mINFO[0m[0012]                                              
+[34mINFO[0m[0012] 2016-10-29 17:57:19.613533197 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 16.868µs 
+[34mINFO[0m[0086]                                              
+[34mINFO[0m[0086] 2016-10-29 17:58:33.925769245 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 8.795µs 
+[34mINFO[0m[0088]                                              
+[34mINFO[0m[0088] 2016-10-29 17:58:35.769895202 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 17.726µs 
+[34mINFO[0m[0088]                                              
+[34mINFO[0m[0088] 2016-10-29 17:58:36.146564371 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 12.908µs 
+[34mINFO[0m[0088]                                              
+[34mINFO[0m[0088] 2016-10-29 17:58:36.388015247 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 11.448µs 
+[34mINFO[0m[0089]                                              
+[34mINFO[0m[0089] 2016-10-29 17:58:36.617244247 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 11.559µs 
+[34mINFO[0m[0089]                                              
+[34mINFO[0m[0089] 2016-10-29 17:58:36.830560124 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 9.51µs 
+[34mINFO[0m[0089]                                              
+[34mINFO[0m[0089] 2016-10-29 17:58:37.079933377 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 20.897µs 
+[34mINFO[0m[0089]                                              
+[34mINFO[0m[0089] 2016-10-29 17:58:37.292453208 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 12.063µs 
+[34mINFO[0m[0089]                                              
+[34mINFO[0m[0089] 2016-10-29 17:58:37.48939776 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 9.233µs 
+[34mINFO[0m[0090]                                              
+[34mINFO[0m[0090] 2016-10-29 17:58:37.643763007 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 10.201µs 
+[34mINFO[0m[0090]                                              
+[34mINFO[0m[0090] 2016-10-29 17:58:37.81454462 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 6.576µs 
+[34mINFO[0m[0090]                                              
+[34mINFO[0m[0090] 2016-10-29 17:58:37.975365755 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 11.246µs 
+[34mINFO[0m[0090]                                              
+[34mINFO[0m[0090] 2016-10-29 17:58:38.138081151 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 14.815µs 
+[34mINFO[0m[0090]                                              
+[34mINFO[0m[0090] 2016-10-29 17:58:38.29939816 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 12.645µs 
+[34mINFO[0m[0097]                                              
+[34mINFO[0m[0097] 2016-10-29 17:58:45.363693501 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 12.858µs 
+[34mINFO[0m[2126]                                              
+[34mINFO[0m[2126] 2016-10-29 18:32:34.095568876 +0800 CST POST /api/v1/apps for 192.168.1.109:6008 used time: 42.1µs 
+[34mINFO[0m[2237]                                              
+[34mINFO[0m[2237] 2016-10-29 18:34:24.858218726 +0800 CST GET /api/v1/apps for 192.168.1.109:6008 used time: 8.316µs 
+[34mINFO[0m[2616]                                              
+[34mINFO[0m[2616] 2016-10-29 18:40:43.772580631 +0800 CST GET /api/v1/apps for 192.168.1.109:6008 used time: 7.129µs 
+[34mINFO[0m[2692]                                              
+[34mINFO[0m[2692] 2016-10-29 18:42:00.05363838 +0800 CST GET /api/v1/apps for 192.168.1.109:6008 used time: 16.755µs 
+[34mINFO[0m[2793]                                              
+[34mINFO[0m[2793] 2016-10-29 18:43:40.841634597 +0800 CST GET /api/v1/apps for 192.168.1.109:6008 used time: 8.535µs 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-10-29 18:49:50.25478292 +0800 CST
+[34mINFO[0m[0004]                                              
+[34mINFO[0m[0004] 2016-10-29 18:49:55.228599033 +0800 CST POST /api/v1/apps for 127.0.0.1:6008 used time: 21.419µs 
+[34mINFO[0m[0017]                                              
+[34mINFO[0m[0017] 2016-10-29 18:50:07.804514656 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 11.456µs 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-10-29 18:51:03.14437365 +0800 CST
+[34mINFO[0m[0004]                                              
+[34mINFO[0m[0004] 2016-10-29 18:51:07.249502443 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 15.772µs 
+[34mINFO[0m[0039]                                              
+[34mINFO[0m[0039] 2016-10-29 18:51:42.3728112 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 10.149µs 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-10-29 18:52:23.516608152 +0800 CST
+[34mINFO[0m[0003]                                              
+[34mINFO[0m[0003] 2016-10-29 18:52:26.914281843 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 50.692µs 
+[34mINFO[0m[0005]                                              
+[34mINFO[0m[0005] 2016-10-29 18:52:28.752150996 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 10.87µs 
+[34mINFO[0m[0005]                                              
+[34mINFO[0m[0005] 2016-10-29 18:52:28.952131192 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 10.036µs 
+[34mINFO[0m[0005]                                              
+[34mINFO[0m[0005] 2016-10-29 18:52:29.145812638 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 10.101µs 
+[34mINFO[0m[0005]                                              
+[34mINFO[0m[0005] 2016-10-29 18:52:29.357111555 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 9.803µs 
+[34mINFO[0m[0006]                                              
+[34mINFO[0m[0006] 2016-10-29 18:52:29.555600853 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 18.721µs 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-10-29 18:53:48.034139848 +0800 CST
+[34mINFO[0m[0006]                                              
+[34mINFO[0m[0006] 2016-10-29 18:53:54.700477257 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 14.991µs 
+[34mINFO[0m[0008]                                              
+[34mINFO[0m[0008] 2016-10-29 18:53:56.568578272 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 13.146µs 
+[34mINFO[0m[0009]                                              
+[34mINFO[0m[0009] 2016-10-29 18:53:57.124514727 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 17.93µs 
+[34mINFO[0m[0009]                                              
+[34mINFO[0m[0009] 2016-10-29 18:53:57.751447213 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 10.508µs 
+[34mINFO[0m[0010]                                              
+[34mINFO[0m[0010] 2016-10-29 18:53:58.180530188 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 10.783µs 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-10-29 18:54:11.033930165 +0800 CST
+[34mINFO[0m[0002]                                              
+[34mINFO[0m[0002] 2016-10-29 18:54:13.994305595 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 17.212µs 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-10-29 18:55:13.54191522 +0800 CST
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-10-29 18:55:18.80923393 +0800 CST
+[34mINFO[0m[0002]                                              
+[34mINFO[0m[0002] 2016-10-29 18:55:21.684340227 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 16.027µs 
+[34mINFO[0m[0016]                                              
+[34mINFO[0m[0016] 2016-10-29 18:55:35.298350474 +0800 CST GET /api/v1/apps for 192.168.1.109:6008 used time: 11.521µs 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-10-29 18:56:26.429881532 +0800 CST
+[34mINFO[0m[0003]                                              
+[34mINFO[0m[0003] 2016-10-29 18:56:29.729033743 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 17.802µs 
+[34mINFO[0m[0004]                                              
+[34mINFO[0m[0004] 2016-10-29 18:56:30.924379549 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 15.47µs 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-10-29 18:56:48.005416878 +0800 CST
+[34mINFO[0m[0003]                                              
+[34mINFO[0m[0003] 2016-10-29 18:56:51.93899399 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 16.676µs 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-10-29 18:57:19.603292035 +0800 CST
+[34mINFO[0m[0002]                                              
+[34mINFO[0m[0002] 2016-10-29 18:57:22.450308105 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 13.206µs 
+[34mINFO[0m[0015]                                              
+[34mINFO[0m[0015] 2016-10-29 18:57:35.294796728 +0800 CST GET /api/v1/apps for 192.168.1.109:6008 used time: 29.572µs 
+[34mINFO[0m[0016]                                              
+[34mINFO[0m[0016] 2016-10-29 18:57:35.889967906 +0800 CST GET /favicon.ico for 192.168.1.109:6008 used time: 12.915µs 
+[34mINFO[0m[0052]                                              
+[34mINFO[0m[0052] 2016-10-29 18:58:12.4354466 +0800 CST GET /api/v1/apps for 192.168.1.109:6008 used time: 7.763µs 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-10-29 18:58:41.139496197 +0800 CST
+[34mINFO[0m[0005]                                              
+[34mINFO[0m[0005] 2016-10-29 18:58:46.174207674 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 15.427µs 
+[34mINFO[0m[0087]                                              
+[34mINFO[0m[0087] 2016-10-29 19:00:08.393571671 +0800 CST GET /api/v1/apps for 192.168.1.109:6008 used time: 23.351µs 
+[34mINFO[0m[0154]                                              
+[34mINFO[0m[0154] 2016-10-29 19:01:15.36508307 +0800 CST GET /api/v1/apps for 192.168.1.109:6008 used time: 8.998µs 
+[34mINFO[0m[0465]                                              
+[34mINFO[0m[0465] 2016-10-29 19:06:26.504689818 +0800 CST GET /api/v1/apps for 192.168.1.109:6008 used time: 10.664µs 
+[34mINFO[0m[0835]                                              
+[34mINFO[0m[0835] 2016-10-29 19:12:36.445881324 +0800 CST GET /api/v1/apps for 192.168.1.109:6008 used time: 9.595µs 
+[34mINFO[0m[0949]                                              
+[34mINFO[0m[0949] 2016-10-29 19:14:31.109482168 +0800 CST GET /api/v1/apps for 192.168.1.109:6008 used time: 24.129µs 
+[34mINFO[0m[1186]                                              
+[34mINFO[0m[1186] 2016-10-29 19:18:27.786731412 +0800 CST GET /api/v1/apps for 192.168.1.109:6008 used time: 9.768µs 
+[34mINFO[0m[2952]                                              
+[34mINFO[0m[2952] 2016-10-29 19:47:53.498323393 +0800 CST GET /api/v1/apps for 192.168.1.109:6008 used time: 43.087µs 
+[34mINFO[0m[7921]                                              
+[34mINFO[0m[7921] 2016-10-29 21:10:43.097984887 +0800 CST POST /api/v1/apps for 127.0.0.1:6008 used time: 56.829µs 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-10-29 21:16:19.250028115 +0800 CST
+[34mINFO[0m[0011]                                              
+[34mINFO[0m[0011] 2016-10-29 21:16:30.529643852 +0800 CST POST /api/v1/apps for 127.0.0.1:6008 used time: 36.555µs 
+[34mINFO[0m[0022]                                              
+[34mINFO[0m[0022]                                              
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-10-29 21:27:21.975222952 +0800 CST
+[34mINFO[0m[0004]                                              
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-10-29 21:29:48.574142377 +0800 CST
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-10-29 21:30:35.074074159 +0800 CST
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-10-29 21:31:18.414399053 +0800 CST
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-10-29 21:32:28.193295435 +0800 CST
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-10-30 17:33:29.826188542 +0800 CST
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-10-30 17:33:58.045858238 +0800 CST
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-10-30 17:38:00.000656383 +0800 CST
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-10-30 17:39:46.495139454 +0800 CST
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-10-30 17:42:05.002425347 +0800 CST
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-10-30 17:43:22.293778534 +0800 CST
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-10-31 21:32:45.797946649 +0800 CST
+[31mFATA[0m[0000] listen tcp :6007: bind: address already in use 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-01 20:46:04.453069502 +0800 CST
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-01 20:48:01.705447767 +0800 CST
+[34mINFO[0m[0002]                                              
+[34mINFO[0m[0002] 2016-11-01 20:48:04.414265486 +0800 CST GET /api/v1/apps for 127.0.0.1:6007 used time: 23.12µs 
+[34mINFO[0m[0155]                                              
+[34mINFO[0m[0155] 2016-11-01 20:50:37.092586407 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 37.388µs 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-01 21:17:02.923042777 +0800 CST
+[34mINFO[0m[0081]                                              
+[34mINFO[0m[0081] 2016-11-01 21:18:24.561118433 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 85.311µs 
+[34mINFO[0m[0091]                                              
+[34mINFO[0m[0091] 2016-11-01 21:18:34.233492713 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 14.185µs 
+[34mINFO[0m[0091]                                              
+[34mINFO[0m[0091] 2016-11-01 21:18:34.804699168 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 19.686µs 
+[34mINFO[0m[0092]                                              
+[34mINFO[0m[0092] 2016-11-01 21:18:35.218594007 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 14.739µs 
+[34mINFO[0m[0092]                                              
+[34mINFO[0m[0092] 2016-11-01 21:18:35.650374895 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 16.933µs 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-01 21:21:43.645128033 +0800 CST
+[34mINFO[0m[0003]                                              
+[34mINFO[0m[0003] 2016-11-01 21:21:47.052958792 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 34.395µs 
+[34mINFO[0m[0004]                                              
+[34mINFO[0m[0004] 2016-11-01 21:21:47.982408822 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 13.886µs 
+[34mINFO[0m[0004]                                              
+[34mINFO[0m[0004] 2016-11-01 21:21:48.507320711 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 14.277µs 
+[34mINFO[0m[0005]                                              
+[34mINFO[0m[0005] 2016-11-01 21:21:48.963483154 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 11.723µs 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-01 21:21:56.276679122 +0800 CST
+[34mINFO[0m[0032]                                              
+[34mINFO[0m[0032] 2016-11-01 21:22:28.514083885 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 34.267µs 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-03 21:33:08.851235792 +0800 CST
+[34mINFO[0m[0357]                                              
+[34mINFO[0m[0357] 2016-11-03 21:39:05.923471333 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 1.526914ms 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-03 21:54:13.683719996 +0800 CST
+[34mINFO[0m[0011]                                              
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-03 21:59:23.313188496 +0800 CST
+[34mINFO[0m[0006]                                              
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-03 22:01:31.428968399 +0800 CST
+[34mINFO[0m[0004]                                              
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-03 22:15:45.583794827 +0800 CST
+[34mINFO[0m[0007]                                              
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-03 22:17:18.337879493 +0800 CST
+[34mINFO[0m[0033]                                              
+[37mDEBU[0m[0033] <nil>                                        
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-03 22:19:45.928933255 +0800 CST
+[34mINFO[0m[0003]                                              
+[37mDEBU[0m[0003] <nil>                                        
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-03 22:20:08.150803821 +0800 CST
+[34mINFO[0m[0006]                                              
+[37mDEBU[0m[0006] <nil>                                        
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a4370 0xc420155f40}                 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-03 22:25:36.682365392 +0800 CST
+[34mINFO[0m[0002]                                              
+[37mDEBU[0m[0002] <nil>                                        
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a4420 0xc420155f40}                 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-03 22:26:04.967326549 +0800 CST
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a4370 0xc420155ea0}                 
+[37mDEBU[0m[0000] &{0xc420139a20 [] 0xc420176008}              
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-03 22:26:52.762489587 +0800 CST
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a4420 0xc42016e000}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a20 Replicas:[] User:0xc420178008} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-03 22:27:37.451861032 +0800 CST
+[34mINFO[0m[0017]                                              
+[37mDEBU[0m[0017] <nil>                                        
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200b6370 0xc420167ea0}                 
+[37mDEBU[0m[0000] &{Master:0xc42014b910 Replicas:[] User:0xc42018a008} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-03 22:28:30.547996515 +0800 CST
+[34mINFO[0m[0004]                                              
+[37mDEBU[0m[0004] &{Master:0xc42014b910 Replicas:[] User:0xc42018a008} 
+[34mINFO[0m[0004] 2016-11-03 22:28:34.639137021 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 3.688982ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200b6370 0xc42017c000}                 
+[37mDEBU[0m[0000] &{Master:0xc420149920 Replicas:[] User:0xc42002a008} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-03 22:29:22.188878974 +0800 CST
+[34mINFO[0m[0002]                                              
+[34mINFO[0m[0002] 2016-11-03 22:29:24.587871445 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 2.343705ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200c2370 0xc420190000}                 
+[37mDEBU[0m[0000] &{Master:0xc42015b930 Replicas:[] User:0xc42002a010} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-03 22:31:29.77391576 +0800 CST
+[34mINFO[0m[0003]                                              
+[34mINFO[0m[0003] 2016-11-03 22:31:33.094716438 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 2.121317ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a4370 0xc420155ea0}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a30 Replicas:[] User:0xc420176008} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-03 22:32:22.385190863 +0800 CST
+[34mINFO[0m[0002]                                              
+[34mINFO[0m[0002] 2016-11-03 22:32:25.169142334 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 2.756752ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a4370 0xc42016e140}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a20 Replicas:[] User:0xc420178008} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-03 22:32:42.742429733 +0800 CST
+[34mINFO[0m[0003]                                              
+[34mINFO[0m[0003] 2016-11-03 22:32:46.677824174 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 6.43046ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a4370 0xc420155ea0}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a20 Replicas:[] User:0xc420176008} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-03 22:35:11.118996111 +0800 CST
+[34mINFO[0m[0009]                                              
+[34mINFO[0m[0009] 2016-11-03 22:35:21.095396899 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 9.883766ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a2370 0xc42016e000}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a50 Replicas:[] User:0xc420178008} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-03 22:52:43.440328834 +0800 CST
+[34mINFO[0m[0005]                                              
+[34mINFO[0m[0005] 2016-11-03 22:52:49.365153829 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 79.690083ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200b2420 0xc42017e000}                 
+[37mDEBU[0m[0000] &{Master:0xc420149960 Replicas:[] User:0xc420188008} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-03 22:53:12.813823802 +0800 CST
+[34mINFO[0m[0005]                                              
+[34mINFO[0m[0005] 2016-11-03 22:53:18.553572074 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 82.299061ms 
+[34mINFO[0m[0295]                                              
+[34mINFO[0m[0295] 2016-11-03 22:58:08.248554226 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 1.007219ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a2370 0xc420170000}                 
+[37mDEBU[0m[0000] &{Master:0xc42013ba60 Replicas:[] User:0xc42017a008} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-03 23:10:40.898499201 +0800 CST
+[34mINFO[0m[0003]                                              
+[34mINFO[0m[0003] 2016-11-03 23:10:44.844551908 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 84.021707ms 
+[34mINFO[0m[0008]                                              
+[34mINFO[0m[0008] 2016-11-03 23:10:49.828300352 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 80.82766ms 
+[34mINFO[0m[0009]                                              
+[34mINFO[0m[0009] 2016-11-03 23:10:50.612190908 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 78.766546ms 
+[34mINFO[0m[0010]                                              
+[34mINFO[0m[0010] 2016-11-03 23:10:51.192400871 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 81.544409ms 
+[34mINFO[0m[0010]                                              
+[34mINFO[0m[0010] 2016-11-03 23:10:51.8138399 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 84.03848ms 
+[34mINFO[0m[0011]                                              
+[34mINFO[0m[0011] 2016-11-03 23:10:52.362874148 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 81.338786ms 
+[34mINFO[0m[0011]                                              
+[34mINFO[0m[0012] 2016-11-03 23:10:52.904294033 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 78.571312ms 
+[34mINFO[0m[0012]                                              
+[34mINFO[0m[0012] 2016-11-03 23:10:53.415122922 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 81.31174ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a2370 0xc420155ea0}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a50 Replicas:[] User:0xc420176008} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-03 23:13:28.838592359 +0800 CST
+[34mINFO[0m[0002]                                              
+[34mINFO[0m[0002] 2016-11-03 23:13:31.232666369 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 19.696237ms 
+[34mINFO[0m[0035]                                              
+[34mINFO[0m[0035] 2016-11-03 23:14:03.949753789 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 1.45348ms 
+[34mINFO[0m[0048]                                              
+[34mINFO[0m[0048] 2016-11-03 23:14:17.575279277 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 79.162594ms 
+[34mINFO[0m[0060]                                              
+[34mINFO[0m[0060] 2016-11-03 23:14:29.727993019 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 78.313709ms 
+[34mINFO[0m[0095]                                              
+[34mINFO[0m[0095] 2016-11-03 23:15:03.987121007 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 80.525604ms 
+[34mINFO[0m[0098]                                              
+[34mINFO[0m[0098] 2016-11-03 23:15:07.166186338 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 84.195603ms 
+[34mINFO[0m[0100]                                              
+[34mINFO[0m[0100] 2016-11-03 23:15:09.019770962 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 80.543905ms 
+[34mINFO[0m[0106]                                              
+[34mINFO[0m[0106] 2016-11-03 23:15:14.993971092 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 81.076161ms 
+[34mINFO[0m[0107]                                              
+[34mINFO[0m[0107] 2016-11-03 23:15:16.293723268 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 81.52962ms 
+[34mINFO[0m[0108]                                              
+[34mINFO[0m[0108] 2016-11-03 23:15:17.154429414 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 78.359441ms 
+[34mINFO[0m[0114]                                              
+[34mINFO[0m[0114] 2016-11-03 23:15:23.145409459 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 1.034679ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a2420 0xc42016e000}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a50 Replicas:[] User:0xc420178008} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-03 23:17:20.40437938 +0800 CST
+[34mINFO[0m[0010]                                              
+[34mINFO[0m[0010] 2016-11-03 23:17:31.206475375 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 9.368494ms 
+[34mINFO[0m[0024]                                              
+[37mDEBU[0m[0024] 0xc420178338                                 
+[34mINFO[0m[0025] 2016-11-03 23:17:45.446347686 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 88.340051ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200be370 0xc420175f40}                 
+[37mDEBU[0m[0000] &{Master:0xc420159940 Replicas:[] User:0xc420028010} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-03 23:18:20.70208719 +0800 CST
+[34mINFO[0m[0005]                                              
+[37mDEBU[0m[0005] &{Id:2 Username:liuxxx Name: Email:xrt@198.com Mobile: Password: HashedPassword:$2a$10$ZfoR/0TvIqPwj1vI4jBHsOehaJ9NQKK7iC.Gn1yALOBUZwN.3TgiG} 
+[34mINFO[0m[0005] 2016-11-03 23:18:26.116809248 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 88.439442ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200be370 0xc420175ea0}                 
+[37mDEBU[0m[0000] &{Master:0xc420159940 Replicas:[] User:0xc420094660} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-03 23:20:21.566849864 +0800 CST
+[34mINFO[0m[0002]                                              
+[37mDEBU[0m[0002] &{Id:2 Username:liuxxx Name: Email:xrt@198.com Mobile: Password: HashedPassword:$2a$10$ZfoR/0TvIqPwj1vI4jBHsOehaJ9NQKK7iC.Gn1yALOBUZwN.3TgiG} 
+[34mINFO[0m[0002] 2016-11-03 23:20:24.475598471 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 83.395093ms 
+[34mINFO[0m[0003]                                              
+[37mDEBU[0m[0003] &{Id:2 Username:liuxxx Name: Email:xrt@198.com Mobile: Password: HashedPassword:$2a$10$ZfoR/0TvIqPwj1vI4jBHsOehaJ9NQKK7iC.Gn1yALOBUZwN.3TgiG} 
+[34mINFO[0m[0003] 2016-11-03 23:20:25.284409419 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 80.732756ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a2370 0xc42016e000}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a50 Replicas:[] User:0xc420178008} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-04 22:32:44.052619865 +0800 CST
+[34mINFO[0m[0005]                                              
+[34mINFO[0m[0005] 2016-11-04 22:32:49.6936205 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 86.335311ms 
+[34mINFO[0m[0020]                                              
+[34mINFO[0m[0020] 2016-11-04 22:33:04.342064018 +0800 CST GET /api/v1/sessions for 127.0.0.1:6007 used time: 474µs 
+[34mINFO[0m[0023]                                              
+[34mINFO[0m[0023] 2016-11-04 22:33:07.546539232 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 1.01114ms 
+[34mINFO[0m[0101]                                              
+[34mINFO[0m[0101] 2016-11-04 22:34:25.338947369 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 3.848137ms 
+[34mINFO[0m[0113]                                              
+[37mDEBU[0m[0113] &{Id:2 Username:liuxxx Name: Email:xrt@198.com Mobile: Password:aaa HashedPassword:$2a$10$ZfoR/0TvIqPwj1vI4jBHsOehaJ9NQKK7iC.Gn1yALOBUZwN.3TgiG} 
+[34mINFO[0m[0113] 2016-11-04 22:34:37.437257736 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 85.635305ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200be420 0xc42018e0a0}                 
+[37mDEBU[0m[0000] &{Master:0xc42015b940 Replicas:[] User:0xc420028010} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-04 22:52:37.216605834 +0800 CST
+[34mINFO[0m[0005]                                              
+[37mDEBU[0m[0005] &{Id:2 Username:liuxxx Name: Email:xrt@198.com Mobile: Password:aaa HashedPassword:$2a$10$ZfoR/0TvIqPwj1vI4jBHsOehaJ9NQKK7iC.Gn1yALOBUZwN.3TgiG} 
+[33mWARN[0m[0005] session auth user, crypto/bcrypt: hashedPassword is not the hash of the given password 
+[34mINFO[0m[0005] 2016-11-04 22:52:42.52533693 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 81.37579ms 
+[34mINFO[0m[0008]                                              
+[37mDEBU[0m[0008] &{Id:2 Username:liuxxx Name: Email:xrt@198.com Mobile: Password:aaa HashedPassword:$2a$10$ZfoR/0TvIqPwj1vI4jBHsOehaJ9NQKK7iC.Gn1yALOBUZwN.3TgiG} 
+[33mWARN[0m[0008] session auth user, crypto/bcrypt: hashedPassword is not the hash of the given password 
+[34mINFO[0m[0008] 2016-11-04 22:52:45.872060137 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 107.880571ms 
+[34mINFO[0m[0009]                                              
+[37mDEBU[0m[0009] &{Id:2 Username:liuxxx Name: Email:xrt@198.com Mobile: Password:aaa HashedPassword:$2a$10$ZfoR/0TvIqPwj1vI4jBHsOehaJ9NQKK7iC.Gn1yALOBUZwN.3TgiG} 
+[33mWARN[0m[0009] session auth user, crypto/bcrypt: hashedPassword is not the hash of the given password 
+[34mINFO[0m[0009] 2016-11-04 22:52:46.615040255 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 81.568874ms 
+[34mINFO[0m[0009]                                              
+[37mDEBU[0m[0009] &{Id:2 Username:liuxxx Name: Email:xrt@198.com Mobile: Password:aaa HashedPassword:$2a$10$ZfoR/0TvIqPwj1vI4jBHsOehaJ9NQKK7iC.Gn1yALOBUZwN.3TgiG} 
+[33mWARN[0m[0010] session auth user, crypto/bcrypt: hashedPassword is not the hash of the given password 
+[34mINFO[0m[0010] 2016-11-04 22:52:47.256286175 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 85.536803ms 
+[34mINFO[0m[0010]                                              
+[37mDEBU[0m[0010] &{Id:2 Username:liuxxx Name: Email:xrt@198.com Mobile: Password:aaa HashedPassword:$2a$10$ZfoR/0TvIqPwj1vI4jBHsOehaJ9NQKK7iC.Gn1yALOBUZwN.3TgiG} 
+[33mWARN[0m[0010] session auth user, crypto/bcrypt: hashedPassword is not the hash of the given password 
+[34mINFO[0m[0010] 2016-11-04 22:52:47.814714318 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 82.057456ms 
+[34mINFO[0m[0011]                                              
+[37mDEBU[0m[0011] &{Id:2 Username:liuxxx Name: Email:xrt@198.com Mobile: Password:aaa HashedPassword:$2a$10$ZfoR/0TvIqPwj1vI4jBHsOehaJ9NQKK7iC.Gn1yALOBUZwN.3TgiG} 
+[33mWARN[0m[0011] session auth user, crypto/bcrypt: hashedPassword is not the hash of the given password 
+[34mINFO[0m[0011] 2016-11-04 22:52:48.335492677 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 85.043966ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a4420 0xc420157ea0}                 
+[37mDEBU[0m[0000] &{Master:0xc42013ba40 Replicas:[] User:0xc420028660} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-04 22:53:27.847681483 +0800 CST
+[34mINFO[0m[0001]                                              
+[37mDEBU[0m[0001] &{Id:2 Username:liuxxx Name: Email:xrt@198.com Mobile: Password:aaa HashedPassword:$2a$10$ZfoR/0TvIqPwj1vI4jBHsOehaJ9NQKK7iC.Gn1yALOBUZwN.3TgiG} 
+[33mWARN[0m[0001] session auth user, crypto/bcrypt: hashedPassword is not the hash of the given password 
+[34mINFO[0m[0001] 2016-11-04 22:53:29.260457114 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 84.09455ms 
+[34mINFO[0m[0045]                                              
+[37mDEBU[0m[0045] &{Id:2 Username:liuxxx Name: Email:xrt@198.com Mobile: Password:1234567890a HashedPassword:$2a$10$ZfoR/0TvIqPwj1vI4jBHsOehaJ9NQKK7iC.Gn1yALOBUZwN.3TgiG} 
+[33mWARN[0m[0045] session auth user, crypto/bcrypt: hashedPassword is not the hash of the given password 
+[34mINFO[0m[0045] 2016-11-04 22:54:13.632412653 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 88.237206ms 
+[34mINFO[0m[0629]                                              
+[34mINFO[0m[0629] 2016-11-04 23:03:57.584422445 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 87.127144ms 
+[34mINFO[0m[0645]                                              
+[34mINFO[0m[0645] 2016-11-04 23:04:13.253506576 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 81.436955ms 
+[34mINFO[0m[0655]                                              
+[34mINFO[0m[0655] 2016-11-04 23:04:22.942482821 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 84.792473ms 
+[34mINFO[0m[0664]                                              
+[34mINFO[0m[0665] 2016-11-04 23:04:32.853327586 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 84.5981ms 
+[34mINFO[0m[0673]                                              
+[34mINFO[0m[0673] 2016-11-04 23:04:41.411604975 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 81.175745ms 
+[34mINFO[0m[0694]                                              
+[34mINFO[0m[0694] 2016-11-04 23:05:02.789521033 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 83.826104ms 
+[34mINFO[0m[0706]                                              
+[37mDEBU[0m[0706] &{Id:1 Username:liuxxx Name: Email:xrt@198.com Mobile: Password:1234567890a HashedPassword:$2a$10$7g4pnMOVkfcOYnc3Xd6wV.66.U4LCGXcKH7W.NOSWO1DXUnA35RV6} 
+[33mWARN[0m[0706] session auth user, crypto/bcrypt: hashedPassword is not the hash of the given password 
+[34mINFO[0m[0706] 2016-11-04 23:05:14.014690025 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 78.673602ms 
+[34mINFO[0m[0735]                                              
+[37mDEBU[0m[0735] &{Id:1 Username:liuxxx Name: Email:xrt@198.com Mobile: Password:1234567890a HashedPassword:$2a$10$7g4pnMOVkfcOYnc3Xd6wV.66.U4LCGXcKH7W.NOSWO1DXUnA35RV6} 
+[33mWARN[0m[0735] session auth user, crypto/bcrypt: hashedPassword is not the hash of the given password 
+[34mINFO[0m[0735] 2016-11-04 23:05:43.033548924 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 80.515903ms 
+[34mINFO[0m[0754]                                              
+[37mDEBU[0m[0754] &{Id:1 Username:liuxxx Name: Email:xrt@198.com Mobile: Password:1234567890a HashedPassword:$2a$10$7g4pnMOVkfcOYnc3Xd6wV.66.U4LCGXcKH7W.NOSWO1DXUnA35RV6} 
+[33mWARN[0m[0754] session auth user, crypto/bcrypt: hashedPassword is not the hash of the given password 
+[34mINFO[0m[0754] 2016-11-04 23:06:02.808047827 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 80.79588ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a2370 0xc42016e000}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a50 Replicas:[] User:0xc420178008} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-04 23:14:20.246143647 +0800 CST
+[34mINFO[0m[0002]                                              
+[33mWARN[0m[0002] session auth user, crypto/bcrypt: hashedPassword is not the hash of the given password 
+[34mINFO[0m[0002] 2016-11-04 23:14:23.160209975 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 90.323521ms 
+[34mINFO[0m[0040]                                              
+[34mINFO[0m[0040] 2016-11-04 23:15:01.165760028 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 99.767764ms 
+[34mINFO[0m[0048]                                              
+[34mINFO[0m[0048] 2016-11-04 23:15:09.081232242 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 87.688663ms 
+[34mINFO[0m[0060]                                              
+[34mINFO[0m[0060] 2016-11-04 23:15:21.039535111 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 88.222355ms 
+[34mINFO[0m[0077]                                              
+[33mWARN[0m[0077] session auth user, crypto/bcrypt: hashedPassword is not the hash of the given password 
+[34mINFO[0m[0077] 2016-11-04 23:15:37.456320641 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 94.164019ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200b2370 0xc42017a000}                 
+[37mDEBU[0m[0000] &{Master:0xc420147940 Replicas:[] User:0xc420188008} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-04 23:22:11.952959373 +0800 CST
+[34mINFO[0m[0008]                                              
+[33mWARN[0m[0008] session auth user, crypto/bcrypt: hashedPassword is not the hash of the given password 
+[34mINFO[0m[0008] 2016-11-04 23:22:20.751905649 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 85.219042ms 
+[34mINFO[0m[0015]                                              
+[34mINFO[0m[0015] 2016-11-04 23:22:27.22598507 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 164.727165ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a2420 0xc420157f40}                 
+[37mDEBU[0m[0000] &{Master:0xc42013ba40 Replicas:[] User:0xc42018a000} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-04 23:23:30.286138892 +0800 CST
+[34mINFO[0m[0004]                                              
+[34mINFO[0m[0005] 2016-11-04 23:23:35.348810126 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 159.371066ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a2370 0xc420155ea0}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a40 Replicas:[] User:0xc420178008} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-04 23:27:47.432351949 +0800 CST
+[34mINFO[0m[0008]                                              
+[34mINFO[0m[0008] 2016-11-04 23:27:55.936949228 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 161.782428ms 
+[34mINFO[0m[0011]                                              
+[34mINFO[0m[0011] 2016-11-04 23:27:58.887303023 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 157.519216ms 
+[34mINFO[0m[0012]                                              
+[34mINFO[0m[0012] 2016-11-04 23:27:59.752077827 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 154.944682ms 
+[34mINFO[0m[0012]                                              
+[34mINFO[0m[0012] 2016-11-04 23:28:00.194480808 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 157.065382ms 
+[34mINFO[0m[0012]                                              
+[34mINFO[0m[0013] 2016-11-04 23:28:00.448733487 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 162.021699ms 
+[34mINFO[0m[0013]                                              
+[34mINFO[0m[0013] 2016-11-04 23:28:00.736661979 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 154.400607ms 
+[34mINFO[0m[0013]                                              
+[34mINFO[0m[0013] 2016-11-04 23:28:00.974565256 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 156.701611ms 
+[34mINFO[0m[0013]                                              
+[34mINFO[0m[0013] 2016-11-04 23:28:01.194843694 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 156.536936ms 
+[34mINFO[0m[0013]                                              
+[34mINFO[0m[0013] 2016-11-04 23:28:01.408266837 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 158.001749ms 
+[34mINFO[0m[0014]                                              
+[34mINFO[0m[0014] 2016-11-04 23:28:01.626533149 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 159.209452ms 
+[34mINFO[0m[0014]                                              
+[34mINFO[0m[0014] 2016-11-04 23:28:01.849511347 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 168.855161ms 
+[34mINFO[0m[0014]                                              
+[34mINFO[0m[0014] 2016-11-04 23:28:02.054931535 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 152.70934ms 
+[34mINFO[0m[0014]                                              
+[34mINFO[0m[0014] 2016-11-04 23:28:02.293746119 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 158.859743ms 
+[34mINFO[0m[0015]                                              
+[34mINFO[0m[0015] 2016-11-04 23:28:03.000585139 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 163.379395ms 
+[34mINFO[0m[0016]                                              
+[34mINFO[0m[0016] 2016-11-04 23:28:03.677281117 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 155.65052ms 
+[34mINFO[0m[0016]                                              
+[34mINFO[0m[0016] 2016-11-04 23:28:04.307827684 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 155.30565ms 
+[34mINFO[0m[0016]                                              
+[34mINFO[0m[0017] 2016-11-04 23:28:04.548214679 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 157.057047ms 
+[34mINFO[0m[0017]                                              
+[34mINFO[0m[0017] 2016-11-04 23:28:04.785048685 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 162.660615ms 
+[34mINFO[0m[0017]                                              
+[34mINFO[0m[0017] 2016-11-04 23:28:05.314280344 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 156.157276ms 
+[34mINFO[0m[0018]                                              
+[34mINFO[0m[0018] 2016-11-04 23:28:05.979832479 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 161.14941ms 
+[34mINFO[0m[0030]                                              
+[34mINFO[0m[0030] 2016-11-04 23:28:17.84510713 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 160.428685ms 
+[34mINFO[0m[0040]                                              
+[34mINFO[0m[0040] 2016-11-04 23:28:27.685364194 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 158.965581ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a2420 0xc420155f40}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a50 Replicas:[] User:0xc420028660} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-04 23:29:36.996258818 +0800 CST
+[34mINFO[0m[0013]                                              
+[34mINFO[0m[0013] 2016-11-04 23:29:50.642766038 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 165.715195ms 
+[34mINFO[0m[0115]                                              
+[33mWARN[0m[0115] session auth user, crypto/bcrypt: hashedPassword is not the hash of the given password 
+[34mINFO[0m[0115] 2016-11-04 23:31:32.894357325 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 92.704251ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a2370 0xc420155ea0}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a40 Replicas:[] User:0xc420176008} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-04 23:33:27.882427619 +0800 CST
+[34mINFO[0m[0003]                                              
+[33mWARN[0m[0003] session auth user, crypto/bcrypt: hashedPassword is not the hash of the given password 
+[34mINFO[0m[0003] 2016-11-04 23:33:31.835153986 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 164.613538ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a2420 0xc420155ea0}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a50 Replicas:[] User:0xc420188000} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-04 23:34:00.473857774 +0800 CST
+[34mINFO[0m[0003]                                              
+[33mWARN[0m[0003] session auth user, crypto/bcrypt: hashedPassword is not the hash of the given password 
+[34mINFO[0m[0003] 2016-11-04 23:34:04.314456133 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 164.88401ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200b2370 0xc4201800a0}                 
+[37mDEBU[0m[0000] &{Master:0xc42014d940 Replicas:[] User:0xc42018c008} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-04 23:35:05.120869388 +0800 CST
+[34mINFO[0m[0003]                                              
+[33mWARN[0m[0003] session auth user, crypto/bcrypt: hashedPassword is not the hash of the given password 
+[34mINFO[0m[0003] 2016-11-04 23:35:08.493470841 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 160.006241ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a2370 0xc420155f40}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a50 Replicas:[] User:0xc420188000} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-04 23:35:38.402801266 +0800 CST
+[34mINFO[0m[0002]                                              
+[33mWARN[0m[0002] session auth user, crypto/bcrypt: hashedPassword is not the hash of the given password 
+[34mINFO[0m[0002] 2016-11-04 23:35:41.30005332 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 160.40399ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200b2370 0xc420165ea0}                 
+[37mDEBU[0m[0000] &{Master:0xc420149930 Replicas:[] User:0xc420028008} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-04 23:36:32.075929861 +0800 CST
+[34mINFO[0m[0009]                                              
+[34mINFO[0m[0010] 2016-11-04 23:36:42.193121144 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 164.91084ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a2370 0xc42016e000}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a40 Replicas:[] User:0xc420028660} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-04 23:37:07.594806846 +0800 CST
+[34mINFO[0m[0013]                                              
+[33mWARN[0m[0013] session auth user, crypto/bcrypt: hashedPassword is not the hash of the given password 
+[34mINFO[0m[0013] 2016-11-04 23:37:21.049653652 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 158.120469ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200be370 0xc420175f40}                 
+[37mDEBU[0m[0000] &{Master:0xc420159930 Replicas:[] User:0xc420094658} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-04 23:38:22.413345733 +0800 CST
+[34mINFO[0m[0004]                                              
+[33mWARN[0m[0004] session auth user, crypto/bcrypt: hashedPassword is not the hash of the given password 
+[34mINFO[0m[0004] 2016-11-04 23:38:27.01482565 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 163.512442ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a2420 0xc420155ea0}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a50 Replicas:[] User:0xc420178008} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-04 23:39:48.842494041 +0800 CST
+[34mINFO[0m[0010]                                              
+[34mINFO[0m[0010] 2016-11-04 23:39:59.54995453 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 169.688551ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0001] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0001] &{0xc4200b2370 0xc420165f40}                 
+[37mDEBU[0m[0001] &{Master:0xc420149930 Replicas:[] User:0xc420186008} 
+[34mINFO[0m[0001] starting in development on :6007              [34mtime[0m=2016-11-04 23:45:39.152264061 +0800 CST
+[34mINFO[0m[0003]                                              
+[34mINFO[0m[0004] 2016-11-04 23:45:42.211158774 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 159.693791ms 
+[34mINFO[0m[0011]                                              
+[34mINFO[0m[0011] 2016-11-04 23:45:49.683167681 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 162.412463ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200b2420 0xc420163ea0}                 
+[37mDEBU[0m[0000] &{Master:0xc420147950 Replicas:[] User:0xc42019a000} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-04 23:46:27.420915402 +0800 CST
+[34mINFO[0m[0014]                                              
+[34mINFO[0m[0014] 2016-11-04 23:46:42.011559488 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 88.903261ms 
+[34mINFO[0m[0018]                                              
+[34mINFO[0m[0018] 2016-11-04 23:46:46.404726875 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 82.624744ms 
+[34mINFO[0m[0022]                                              
+[33mWARN[0m[0022] session auth user, crypto/bcrypt: hashedPassword is not the hash of the given password 
+[34mINFO[0m[0022] 2016-11-04 23:46:50.232198344 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 78.782584ms 
+[34mINFO[0m[0028]                                              
+[31mERRO[0m[0028] session query database, pg: no rows in result set 
+[34mINFO[0m[0028] 2016-11-04 23:46:55.660525162 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 2.884868ms 
+[34mINFO[0m[0135]                                              
+[31mERRO[0m[0135] session query database, pg: no rows in result set 
+[34mINFO[0m[0135] 2016-11-04 23:48:42.588413967 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 1.093581ms 
+[34mINFO[0m[0143]                                              
+[31mERRO[0m[0143] session query database, pg: no rows in result set 
+[34mINFO[0m[0143] 2016-11-04 23:48:50.462906193 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 1.111716ms 
+[34mINFO[0m[0144]                                              
+[31mERRO[0m[0144] session query database, pg: no rows in result set 
+[34mINFO[0m[0144] 2016-11-04 23:48:51.635312625 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 1.113994ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a2370 0xc420155f40}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a40 Replicas:[] User:0xc420176008} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-04 23:48:57.787887935 +0800 CST
+[34mINFO[0m[0001]                                              
+[33mWARN[0m[0001] session auth user, crypto/bcrypt: hashedSecret too short to be a bcrypted password 
+[34mINFO[0m[0001] 2016-11-04 23:48:59.309038409 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 5.685947ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a2420 0xc420155ea0}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a50 Replicas:[] User:0xc420176008} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-04 23:50:08.880851427 +0800 CST
+[34mINFO[0m[0003]                                              
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a2370 0xc420155f40}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a40 Replicas:[] User:0xc420178008} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-04 23:51:56.655357603 +0800 CST
+[34mINFO[0m[0010]                                              
+[31mERRO[0m[0010] session query database, pg: no rows in result set 
+[34mINFO[0m[0010] 2016-11-04 23:52:06.819017837 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 4.57129ms 
+[34mINFO[0m[0011]                                              
+[31mERRO[0m[0011] session query database, pg: no rows in result set 
+[34mINFO[0m[0011] 2016-11-04 23:52:08.366573371 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 980.669µs 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200b24d0 0xc42017c000}                 
+[37mDEBU[0m[0000] &{Master:0xc420149940 Replicas:[] User:0xc42018a008} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-04 23:53:10.187399709 +0800 CST
+[34mINFO[0m[0002]                                              
+[34mINFO[0m[0002] 2016-11-04 23:53:12.761582846 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 4.813966ms 
+[34mINFO[0m[0004]                                              
+[34mINFO[0m[0004] 2016-11-04 23:53:14.707414529 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 2.051331ms 
+[34mINFO[0m[0016]                                              
+[33mWARN[0m[0016] session auth user, crypto/bcrypt: hashedPassword is not the hash of the given password 
+[34mINFO[0m[0016] 2016-11-04 23:53:26.46312842 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 78.79389ms 
+[34mINFO[0m[0019]                                              
+[33mWARN[0m[0019] session auth user, crypto/bcrypt: hashedPassword is not the hash of the given password 
+[34mINFO[0m[0019] 2016-11-04 23:53:29.693953496 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 80.647289ms 
+[34mINFO[0m[0024]                                              
+[34mINFO[0m[0024] 2016-11-04 23:53:34.624614026 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 91.348156ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200b2370 0xc420165f40}                 
+[37mDEBU[0m[0000] &{Master:0xc420149930 Replicas:[] User:0xc420092658} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-05 00:10:52.70449718 +0800 CST
+[34mINFO[0m[0011]                                              
+[34mINFO[0m[0011] 2016-11-05 00:11:04.154037953 +0800 CST GET /api/v1/projects for 127.0.0.1:6007 used time: 27.821µs 
+[34mINFO[0m[0013]                                              
+[34mINFO[0m[0013] 2016-11-05 00:11:06.419864986 +0800 CST GET /api/v1/projects for 127.0.0.1:6007 used time: 17.145µs 
+[34mINFO[0m[0016]                                              
+[34mINFO[0m[0016] 2016-11-05 00:11:09.626326856 +0800 CST GET /api/v1/apps for 127.0.0.1:6007 used time: 22.31µs 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200be370 0xc420175ea0}                 
+[37mDEBU[0m[0000] &{Master:0xc420159950 Replicas:[] User:0xc420028010 Project:0xc420028018} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-05 00:16:17.942199054 +0800 CST
+[34mINFO[0m[0003]                                              
+[34mINFO[0m[0003] 2016-11-05 00:16:21.411155546 +0800 CST GET /api/v1/apps for 127.0.0.1:6007 used time: 928.326µs 
+[34mINFO[0m[0004]                                              
+[34mINFO[0m[0004] 2016-11-05 00:16:22.895157742 +0800 CST GET /api/v1/apps for 127.0.0.1:6007 used time: 23.667µs 
+[34mINFO[0m[0012]                                              
+[34mINFO[0m[0012] 2016-11-05 00:16:29.991744829 +0800 CST GET /api/v1/apps for 127.0.0.1:6007 used time: 25.046µs 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200b2370 0xc420165f40}                 
+[37mDEBU[0m[0000] &{Master:0xc420149930 Replicas:[] User:0xc420090658 Project:0xc420090660} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-05 00:17:11.2314343 +0800 CST
+[34mINFO[0m[0002]                                              
+[31mERRO[0m[0002] projects database error pg: Model(non-pointer string) 
+[34mINFO[0m[0002] 2016-11-05 00:17:13.768067562 +0800 CST GET /api/v1/apps for 127.0.0.1:6007 used time: 1.113604ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a2370 0xc420155f40}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a40 Replicas:[] User:0xc420176008 Project:0xc420176010} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-05 00:18:32.316450895 +0800 CST
+[34mINFO[0m[0001]                                              
+[31mERRO[0m[0001] projects database error ERROR #42703 column project.version does not exist (addr="127.0.0.1:5432") 
+[34mINFO[0m[0001] 2016-11-05 00:18:34.079947231 +0800 CST GET /api/v1/apps for 127.0.0.1:6007 used time: 5.29228ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200be370 0xc42018c000}                 
+[37mDEBU[0m[0000] &{Master:0xc420159940 Replicas:[] User:0xc420196008 Project:0xc420196010} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-05 00:20:46.362406112 +0800 CST
+[34mINFO[0m[0003]                                              
+[31mERRO[0m[0003] projects database error ERROR #42703 column project.version does not exist (addr="127.0.0.1:5432") 
+[34mINFO[0m[0003] 2016-11-05 00:20:49.372998371 +0800 CST GET /api/v1/apps for 127.0.0.1:6007 used time: 3.752428ms 
+[34mINFO[0m[0037]                                              
+[34mINFO[0m[0037] 2016-11-05 00:21:23.410104904 +0800 CST GET /api/v1/apps for 127.0.0.1:6007 used time: 2.775827ms 
+[34mINFO[0m[0787]                                              
+[34mINFO[0m[0787] 2016-11-05 00:33:53.877547263 +0800 CST GET /api/v1/apps for 127.0.0.1:6007 used time: 4.433915ms 
+[34mINFO[0m[0837]                                              
+[34mINFO[0m[0837] 2016-11-05 00:34:44.321093617 +0800 CST GET /api/v1/apps for 127.0.0.1:6007 used time: 2.561354ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200b2420 0xc42017c000}                 
+[37mDEBU[0m[0000] &{Master:0xc420147930 Replicas:[] User:0xc42018a008 Project:0xc42018a010} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-05 13:37:04.143816002 +0800 CST
+[34mINFO[0m[2338]                                              
+[34mINFO[0m[2338] 2016-11-05 14:16:03.043978092 +0800 CST GET /api/v1/apps for 192.168.1.103:6007 used time: 6.966808ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200be370 0xc420175ea0}                 
+[37mDEBU[0m[0000] &{Master:0xc420159930 Replicas:[] User:0xc420028010 Project:0xc420028018} 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a2370 0xc42016e0a0}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a60 Replicas:[] User:0xc420178008 Project:0xc420178010} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-05 14:25:40.731385784 +0800 CST
+[34mINFO[0m[0014]                                              
+[34mINFO[0m[0014] 2016-11-05 14:25:54.932382639 +0800 CST GET /api/v1/apps for 192.168.1.103:6007 used time: 6.59008ms 
+[34mINFO[0m[0016]                                              
+[31mERRO[0m[0016] projects database error ERROR #42P01 invalid reference to FROM-clause entry for table "projects" (addr="127.0.0.1:5432") 
+[34mINFO[0m[0016] 2016-11-05 14:25:56.774497958 +0800 CST GET /api/v1/apps/21 for 127.0.0.1:6007 used time: 2.7012ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a2370 0xc420155ea0}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a40 Replicas:[] User:0xc420028658 Project:0xc420028660} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-05 14:27:56.75126684 +0800 CST
+[34mINFO[0m[0003]                                              
+[31mERRO[0m[0003] projects database error ERROR #42703 column "ProjectAsset" does not exist (addr="127.0.0.1:5432") 
+[34mINFO[0m[0003] 2016-11-05 14:28:00.735416985 +0800 CST GET /api/v1/apps/21 for 127.0.0.1:6007 used time: 2.528593ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200b4370 0xc42016bf40}                 
+[37mDEBU[0m[0000] &{Master:0xc42014f930 Replicas:[] User:0xc420028010 Project:0xc420028018} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-05 14:31:38.15584752 +0800 CST
+[34mINFO[0m[0003]                                              
+[34mINFO[0m[0003] 2016-11-05 14:31:41.412473133 +0800 CST GET /api/v1/apps/21 for 127.0.0.1:6007 used time: 5.388615ms 
+[34mINFO[0m[0013]                                              
+[34mINFO[0m[0013] 2016-11-05 14:31:51.464634222 +0800 CST GET /api/v1/apps/1 for 127.0.0.1:6007 used time: 4.37656ms 
+[34mINFO[0m[0235]                                              
+[34mINFO[0m[0235] 2016-11-05 14:35:33.474820804 +0800 CST GET /api/v1/apps for 127.0.0.1:6007 used time: 1.662086ms 
+[34mINFO[0m[1080]                                              
+[34mINFO[0m[1080] 2016-11-05 14:49:38.5757915 +0800 CST GET /api/v1/apps for 192.168.1.103:6007 used time: 1.300116ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a2420 0xc420170000}                 
+[37mDEBU[0m[0000] &{Master:0xc42013ba50 Replicas:[] User:0xc42017a008 Project:0xc42017a010} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-05 14:54:05.196358491 +0800 CST
+[34mINFO[0m[0005]                                              
+[34mINFO[0m[0005] 2016-11-05 14:54:10.587792087 +0800 CST GET /api/v1/apps for 127.0.0.1:6007 used time: 4.206551ms 
+[34mINFO[0m[0034]                                              
+[34mINFO[0m[0034] 2016-11-05 14:54:40.037464132 +0800 CST GET /api/v1/apps for 192.168.1.103:6007 used time: 1.167802ms 
+[34mINFO[0m[0062]                                              
+[34mINFO[0m[0062] 2016-11-05 14:55:07.983798369 +0800 CST GET /api/v1/apps/1 for 127.0.0.1:6007 used time: 6.450212ms 
+[34mINFO[0m[0078]                                              
+[34mINFO[0m[0078] 2016-11-05 14:55:24.177964013 +0800 CST GET /api/v1/apps for 192.168.1.103:6007 used time: 798.787µs 
+[34mINFO[0m[0079]                                              
+[34mINFO[0m[0079] 2016-11-05 14:55:24.793199792 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 87.62464ms 
+[34mINFO[0m[0088]                                              
+[34mINFO[0m[0088] 2016-11-05 14:55:33.515893526 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 2.798144ms 
+[34mINFO[0m[0104]                                              
+[34mINFO[0m[0104] 2016-11-05 14:55:49.805851949 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 80.845629ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200b2370 0xc42017a000}                 
+[37mDEBU[0m[0000] &{Master:0xc420147940 Replicas:[] User:0xc420092660 Project:0xc420092668} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-05 14:59:40.538591573 +0800 CST
+[34mINFO[0m[0009]                                              
+[34mINFO[0m[0009] 2016-11-05 14:59:50.355201338 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 4.602236ms 
+[34mINFO[0m[0042]                                              
+[34mINFO[0m[0042] 2016-11-05 15:00:23.304327356 +0800 CST GET /api/v1/apps for 192.168.1.103:6007 used time: 1.51787ms 
+[34mINFO[0m[0574]                                              
+[34mINFO[0m[0574] 2016-11-05 15:09:14.911298908 +0800 CST GET /api/v1/apps for 192.168.1.103:6007 used time: 2.110264ms 
+[34mINFO[0m[0640]                                              
+[34mINFO[0m[0640] 2016-11-05 15:10:20.608551715 +0800 CST GET /api/v1/apps for 192.168.1.103:6007 used time: 822.654µs 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200b2370 0xc42017c000}                 
+[37mDEBU[0m[0000] &{Master:0xc420149940 Replicas:[] User:0xc420028010 Project:0xc420028018 Category:0xc420028020} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-05 15:13:41.516029065 +0800 CST
+[34mINFO[0m[0005]                                              
+[31mERRO[0m[0005] categories database error ERROR #42P01 relation "categories" does not exist (addr="127.0.0.1:5432") 
+[34mINFO[0m[0005] 2016-11-05 15:13:46.995332386 +0800 CST GET /api/v1/categories for 127.0.0.1:6007 used time: 1.368865ms 
+[34mINFO[0m[0009]                                              
+[34mINFO[0m[0009] 2016-11-05 15:13:51.21011301 +0800 CST GET /api/v1/apps for 192.168.1.103:6007 used time: 1.781574ms 
+[34mINFO[0m[0010]                                              
+[34mINFO[0m[0010] 2016-11-05 15:13:51.96542082 +0800 CST GET /favicon.ico for 192.168.1.103:6007 used time: 22.07µs 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200b6370 0xc42017c0a0}                 
+[37mDEBU[0m[0000] &{Master:0xc420149930 Replicas:[] User:0xc420188008 Project:0xc420188010 Category:0xc420188018} 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-11-05 15:32:15.169951326 +0800 CST
+[34mINFO[0m[0006]                                              
+[31mERRO[0m[0006] categories database error ERROR #42P01 relation "categories" does not exist (addr="127.0.0.1:5432") 
+[34mINFO[0m[0006] 2016-11-05 15:32:21.648354664 +0800 CST GET /api/v1/categories for 127.0.0.1:6008 used time: 3.333366ms 
+[34mINFO[0m[0162]                                              
+[34mINFO[0m[0162] 2016-11-05 15:34:57.818375528 +0800 CST GET /api/v1/categories for 127.0.0.1:6008 used time: 2.009983ms 
+[34mINFO[0m[0219]                                              
+[34mINFO[0m[0219] 2016-11-05 15:35:54.608198131 +0800 CST GET /api/v1/categories for 127.0.0.1:6008 used time: 2.527844ms 
+[34mINFO[0m[1810]                                              
+[34mINFO[0m[1810] 2016-11-05 15:43:52.038067719 +0800 CST GET /api/v1/apps for 192.168.1.103:6007 used time: 1.539483ms 
+[34mINFO[0m[2118]                                              
+[34mINFO[0m[2118] 2016-11-05 15:48:59.669449833 +0800 CST GET /api/v1/apps for 192.168.1.103:6007 used time: 1.174823ms 
+[34mINFO[0m[2429]                                              
+[34mINFO[0m[2429] 2016-11-05 16:12:44.435240207 +0800 CST GET /api/v1/categories for 127.0.0.1:6008 used time: 6.316978ms 
+[34mINFO[0m[3547]                                              
+[34mINFO[0m[3547] 2016-11-05 16:12:48.850298576 +0800 CST POST /api/v1/sessions for 127.0.0.1:6007 used time: 11.643095ms 
+[34mINFO[0m[3550]                                              
+[34mINFO[0m[3550] 2016-11-05 16:12:51.620115794 +0800 CST POST /api/v1/users for 127.0.0.1:6007 used time: 82.05627ms 
+[34mINFO[0m[3631]                                              
+[34mINFO[0m[3631] 2016-11-05 16:14:13.075821817 +0800 CST GET /api/v1/apps for 192.168.1.103:6007 used time: 1.05299ms 
+[34mINFO[0m[3631]                                              
+[34mINFO[0m[3631] 2016-11-05 16:14:13.12303367 +0800 CST GET /api/v1/apps for 192.168.1.103:6007 used time: 653.592µs 
+[34mINFO[0m[2954]                                              
+[34mINFO[0m[2954] 2016-11-05 16:21:29.289321437 +0800 CST GET /api/v1/categories for 127.0.0.1:6008 used time: 986.114µs 
+[34mINFO[0m[2961]                                              
+[34mINFO[0m[2961] 2016-11-05 16:21:36.965991204 +0800 CST GET /api/v1/projects for 127.0.0.1:6008 used time: 302.04µs 
+[34mINFO[0m[3003]                                              
+[34mINFO[0m[3003] 2016-11-05 16:22:18.815744133 +0800 CST GET /api/v1/projects for 127.0.0.1:6008 used time: 15.291µs 
+[34mINFO[0m[3012]                                              
+[34mINFO[0m[3012] 2016-11-05 16:22:28.116012461 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 3.755771ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a4420 0xc420170000}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a50 Replicas:[] User:0xc42002a668 Project:0xc42002a670 Category:0xc42002a678} 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-11-05 16:24:22.234257063 +0800 CST
+[34mINFO[0m[0003]                                              
+[34mINFO[0m[0003] 2016-11-05 16:24:25.910492282 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 3.67386ms 
+[34mINFO[0m[0106]                                              
+[34mINFO[0m[0106] 2016-11-05 16:26:09.131133999 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 4.497035ms 
+[34mINFO[0m[0116]                                              
+[34mINFO[0m[0116] 2016-11-05 16:26:18.247859751 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 4.052471ms 
+[34mINFO[0m[0116]                                              
+[34mINFO[0m[0116] 2016-11-05 16:26:19.074752767 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 816.09µs 
+[34mINFO[0m[0125]                                              
+[34mINFO[0m[0125] 2016-11-05 16:26:27.494233269 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 1.217024ms 
+[34mINFO[0m[0129]                                              
+[34mINFO[0m[0129] 2016-11-05 16:26:31.386739965 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 2.041528ms 
+[34mINFO[0m[0130]                                              
+[34mINFO[0m[0130] 2016-11-05 16:26:32.249612662 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 800.894µs 
+[34mINFO[0m[0130]                                              
+[34mINFO[0m[0130] 2016-11-05 16:26:32.82229638 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 800.215µs 
+[34mINFO[0m[0131]                                              
+[34mINFO[0m[0131] 2016-11-05 16:26:33.639193417 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 924.929µs 
+[34mINFO[0m[0131]                                              
+[34mINFO[0m[0131] 2016-11-05 16:26:34.048489344 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 908.622µs 
+[34mINFO[0m[0132]                                              
+[34mINFO[0m[0132] 2016-11-05 16:26:34.533423061 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 1.062056ms 
+[34mINFO[0m[0132]                                              
+[34mINFO[0m[0132] 2016-11-05 16:26:34.900106109 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 794.201µs 
+[34mINFO[0m[0132]                                              
+[34mINFO[0m[0132] 2016-11-05 16:26:35.101262666 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 929.438µs 
+[34mINFO[0m[0133]                                              
+[34mINFO[0m[0133] 2016-11-05 16:26:35.366472536 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 781.854µs 
+[34mINFO[0m[0133]                                              
+[34mINFO[0m[0133] 2016-11-05 16:26:35.568357472 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 836.924µs 
+[34mINFO[0m[0133]                                              
+[34mINFO[0m[0133] 2016-11-05 16:26:35.761039847 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 830.869µs 
+[34mINFO[0m[0133]                                              
+[34mINFO[0m[0133] 2016-11-05 16:26:35.931169274 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 774.883µs 
+[34mINFO[0m[0133]                                              
+[34mINFO[0m[0133] 2016-11-05 16:26:36.100310959 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 714.019µs 
+[34mINFO[0m[0134]                                              
+[34mINFO[0m[0134] 2016-11-05 16:26:36.285647535 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 1.46304ms 
+[34mINFO[0m[0134]                                              
+[34mINFO[0m[0134] 2016-11-05 16:26:36.476271798 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 1.190494ms 
+[34mINFO[0m[0134]                                              
+[34mINFO[0m[0134] 2016-11-05 16:26:36.647278562 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 822.039µs 
+[34mINFO[0m[0134]                                              
+[34mINFO[0m[0134] 2016-11-05 16:26:36.836064368 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 869.933µs 
+[34mINFO[0m[0134]                                              
+[34mINFO[0m[0134] 2016-11-05 16:26:37.035177493 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 707.17µs 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a4370 0xc420155f40}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a40 Replicas:[] User:0xc420176008 Project:0xc420176010 Category:0xc420176018} 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-11-05 16:26:46.402420744 +0800 CST
+[34mINFO[0m[0001]                                              
+[34mINFO[0m[0001] 2016-11-05 16:26:48.312278726 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 4.729329ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200b6420 0xc420167ea0}                 
+[37mDEBU[0m[0000] &{Master:0xc42014b940 Replicas:[] User:0xc420188008 Project:0xc420188010 Category:0xc420188018} 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-11-05 16:27:33.524535446 +0800 CST
+[34mINFO[0m[0002]                                              
+[34mINFO[0m[0002] 2016-11-05 16:27:35.94962205 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 5.349501ms 
+[34mINFO[0m[0003]                                              
+[34mINFO[0m[0003] 2016-11-05 16:27:36.629654333 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 816.846µs 
+[34mINFO[0m[0006]                                              
+[34mINFO[0m[0006] 2016-11-05 16:27:39.603499518 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 760.964µs 
+[34mINFO[0m[0006]                                              
+[34mINFO[0m[0006] 2016-11-05 16:27:40.134243839 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 1.99692ms 
+[34mINFO[0m[0006]                                              
+[34mINFO[0m[0006] 2016-11-05 16:27:40.51020477 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 813.281µs 
+[34mINFO[0m[0007]                                              
+[34mINFO[0m[0007] 2016-11-05 16:27:40.716065863 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 1.367305ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200b6370 0xc420165f40}                 
+[37mDEBU[0m[0000] &{Master:0xc420149930 Replicas:[] User:0xc42018a008 Project:0xc42018a010 Category:0xc42018a018} 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-11-05 16:28:56.992071767 +0800 CST
+[34mINFO[0m[0002]                                              
+[31mERRO[0m[0002] projects database error pg: can't find column category_id in model Project 
+[34mINFO[0m[0002] 2016-11-05 16:28:59.117240952 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 3.703439ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a4370 0xc4201700a0}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a40 Replicas:[] User:0xc42019c000 Project:0xc42019c008 Category:0xc42019c010} 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-11-05 16:29:57.852275936 +0800 CST
+[34mINFO[0m[0002]                                              
+[31mERRO[0m[0002] projects database error ERROR #42P01 relation "project_to_tags" does not exist (addr="127.0.0.1:5432") 
+[34mINFO[0m[0002] 2016-11-05 16:30:00.523480537 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 4.227684ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200b6370 0xc42017c000}                 
+[37mDEBU[0m[0000] &{Master:0xc420149930 Replicas:[] User:0xc420096658 Project:0xc420096660 Category:0xc420096668} 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-11-05 16:30:27.232656218 +0800 CST
+[34mINFO[0m[0002]                                              
+[31mERRO[0m[0002] projects database error ERROR #42703 column project_tags.sub_id does not exist (addr="127.0.0.1:5432") 
+[34mINFO[0m[0002] 2016-11-05 16:30:29.317160748 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 3.721035ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200b6420 0xc420167f40}                 
+[37mDEBU[0m[0000] &{Master:0xc42014b930 Replicas:[] User:0xc42002a008 Project:0xc42002a010 Category:0xc42002a018} 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-11-05 16:31:21.320543967 +0800 CST
+[34mINFO[0m[0002]                                              
+[34mINFO[0m[0002] 2016-11-05 16:31:24.029839089 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 7.318525ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a4420 0xc42016e0a0}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a60 Replicas:[] User:0xc42018a000 Project:0xc42018a008 Category:0xc42018a010} 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-11-05 16:32:00.252882667 +0800 CST
+[34mINFO[0m[0001]                                              
+[34mINFO[0m[0001] 2016-11-05 16:32:02.167439925 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 4.935969ms 
+[34mINFO[0m[0004]                                              
+[34mINFO[0m[0004] 2016-11-05 16:32:04.725931167 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 2.603639ms 
+[34mINFO[0m[0005]                                              
+[34mINFO[0m[0005] 2016-11-05 16:32:05.567819692 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 1.366739ms 
+[34mINFO[0m[0005]                                              
+[34mINFO[0m[0005] 2016-11-05 16:32:06.116935304 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 3.260811ms 
+[34mINFO[0m[0006]                                              
+[34mINFO[0m[0006] 2016-11-05 16:32:06.696878817 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 2.059381ms 
+[34mINFO[0m[0007]                                              
+[34mINFO[0m[0007] 2016-11-05 16:32:07.332608995 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 2.398594ms 
+[34mINFO[0m[0007]                                              
+[34mINFO[0m[0007] 2016-11-05 16:32:07.870211535 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 1.584222ms 
+[34mINFO[0m[0008]                                              
+[34mINFO[0m[0008] 2016-11-05 16:32:08.353582303 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 1.410936ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200b6370 0xc420165f40}                 
+[37mDEBU[0m[0000] &{Master:0xc420149930 Replicas:[] User:0xc42018a008 Project:0xc42018a010 Category:0xc42018a018} 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-11-05 16:32:37.82399691 +0800 CST
+[34mINFO[0m[0002]                                              
+[31mERRO[0m[0002] projects database error ERROR #42703 column project_tags.name_id does not exist (addr="127.0.0.1:5432") 
+[34mINFO[0m[0002] 2016-11-05 16:32:40.052699283 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 5.040961ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a4370 0xc420155f40}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a40 Replicas:[] User:0xc420198000 Project:0xc420198008 Category:0xc420198010} 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-11-05 16:37:50.349122229 +0800 CST
+[34mINFO[0m[0001]                                              
+[34mINFO[0m[0001] 2016-11-05 16:37:52.219088071 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 3.971786ms 
+[34mINFO[0m[0092]                                              
+[34mINFO[0m[0092] 2016-11-05 16:39:22.610667429 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 4.051166ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200b6420 0xc420167ea0}                 
+[37mDEBU[0m[0000] &{Master:0xc42014b930 Replicas:[] User:0xc42019a000 Project:0xc42019a008 Category:0xc42019a010} 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-11-05 16:39:50.554145395 +0800 CST
+[34mINFO[0m[0002]                                              
+[31mERRO[0m[0002] projects database error ERROR #42703 column tag.Name does not exist (addr="127.0.0.1:5432") 
+[34mINFO[0m[0002] 2016-11-05 16:39:52.62508432 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 9.354872ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a4420 0xc420172000}                 
+[37mDEBU[0m[0000] &{Master:0xc42013da60 Replicas:[] User:0xc42017c008 Project:0xc42017c010 Category:0xc42017c018} 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-11-05 16:40:20.644263738 +0800 CST
+[31mFATA[0m[0000] listen tcp :6008: bind: address already in use 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a2420 0xc420155ea0}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a40 Replicas:[] User:0xc420028660 Project:0xc420028668 Category:0xc420028670} 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-11-05 16:40:23.598986781 +0800 CST
+[31mFATA[0m[0000] listen tcp :6008: bind: address already in use 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a2370 0xc42016e000}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a50 Replicas:[] User:0xc420028660 Project:0xc420028668 Category:0xc420028670} 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-11-05 16:40:25.82350666 +0800 CST
+[31mFATA[0m[0000] listen tcp :6008: bind: address already in use 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a4420 0xc420155f40}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a40 Replicas:[] User:0xc420178008 Project:0xc420178010 Category:0xc420178018} 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-11-05 16:40:34.639833097 +0800 CST
+[34mINFO[0m[0002]                                              
+[34mINFO[0m[0002] 2016-11-05 16:40:36.803705047 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 6.43701ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200b6370 0xc420167f40}                 
+[37mDEBU[0m[0000] &{Master:0xc42014b940 Replicas:[] User:0xc42002a010 Project:0xc42002a018 Category:0xc42002a020} 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-11-05 16:41:15.820861035 +0800 CST
+[34mINFO[0m[0002]                                              
+[31mERRO[0m[0002] projects database error ERROR #42703 column project.Id does not exist (addr="127.0.0.1:5432") 
+[34mINFO[0m[0002] 2016-11-05 16:41:18.178120959 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 2.683528ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a4370 0xc420155ea0}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a50 Replicas:[] User:0xc42002a668 Project:0xc42002a670 Category:0xc42002a678} 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-11-05 16:47:50.331691236 +0800 CST
+[34mINFO[0m[0001]                                              
+[34mINFO[0m[0001] 2016-11-05 16:47:52.227440772 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 4.117159ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a4370 0xc420155ea0}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a40 Replicas:[] User:0xc420178008 Project:0xc420178010 Category:0xc420178018} 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-11-05 16:48:22.929647274 +0800 CST
+[34mINFO[0m[0002]                                              
+[34mINFO[0m[0002] 2016-11-05 16:48:25.045687469 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 6.670355ms 
+[34mINFO[0m[0048]                                              
+[34mINFO[0m[0048] 2016-11-05 16:49:11.33295831 +0800 CST GET /api/v1/apps/2 for 127.0.0.1:6008 used time: 3.95964ms 
+[34mINFO[0m[0055]                                              
+[34mINFO[0m[0055] 2016-11-05 16:49:18.211564413 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 1.965914ms 
+[34mINFO[0m[0058]                                              
+[31mERRO[0m[0058] projects database error pg: no rows in result set 
+[34mINFO[0m[0058] 2016-11-05 16:49:21.090346856 +0800 CST GET /api/v1/apps/1 for 127.0.0.1:6008 used time: 2.584717ms 
+[34mINFO[0m[0064]                                              
+[34mINFO[0m[0064] 2016-11-05 16:49:27.307685448 +0800 CST GET /api/v1/apps/2 for 127.0.0.1:6008 used time: 2.540927ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a2420 0xc42016e000}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a40 Replicas:[] User:0xc420178008 Project:0xc420178010 Category:0xc420178018} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-05 16:53:01.490578823 +0800 CST
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a4370 0xc420155ea0}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a40 Replicas:[] User:0xc420178008 Project:0xc420178010 Category:0xc420178018} 
+[34mINFO[0m[0000] starting in development on :6007              [34mtime[0m=2016-11-05 16:54:44.576015882 +0800 CST
+[31mFATA[0m[0000] listen tcp :6007: bind: address already in use 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a4370 0xc420170000}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a50 Replicas:[] User:0xc42017a008 Project:0xc42017a010 Category:0xc42017a018} 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-11-05 16:55:10.569493378 +0800 CST
+[34mINFO[0m[0006]                                              
+[34mINFO[0m[0006] 2016-11-05 16:55:17.060269043 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 7.918727ms 
+[34mINFO[0m[0012]                                              
+[34mINFO[0m[0012] 2016-11-05 16:55:23.231575602 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 1.632941ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a4370 0xc420155ea0}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a40 Replicas:[] User:0xc420188000 Project:0xc420188008 Category:0xc420188010} 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-11-05 16:55:57.261890512 +0800 CST
+[34mINFO[0m[0004]                                              
+[31mERRO[0m[0004] 0                                            
+[31mERRO[0m[0004] 0                                            
+[34mINFO[0m[0004] 2016-11-05 16:56:01.833008678 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 7.428987ms 
+[34mINFO[0m[0034]                                              
+[31mERRO[0m[0034] 2                                            
+[31mERRO[0m[0034] 10                                           
+[34mINFO[0m[0034] 2016-11-05 16:56:31.377803616 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 1.737812ms 
+[34mINFO[0m[0037]                                              
+[31mERRO[0m[0037] 2                                            
+[31mERRO[0m[0037] 10                                           
+[34mINFO[0m[0037] 2016-11-05 16:56:35.228730069 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 2.2413ms 
+[34mINFO[0m[0046]                                              
+[31mERRO[0m[0046] 0                                            
+[31mERRO[0m[0046] 10                                           
+[34mINFO[0m[0046] 2016-11-05 16:56:43.425377106 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 3.255444ms 
+[34mINFO[0m[0052]                                              
+[31mERRO[0m[0052] 1                                            
+[31mERRO[0m[0052] 10                                           
+[34mINFO[0m[0052] 2016-11-05 16:56:49.87137704 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 3.484613ms 
+[34mINFO[0m[0063]                                              
+[31mERRO[0m[0063] 0                                            
+[31mERRO[0m[0063] 0                                            
+[34mINFO[0m[0063] 2016-11-05 16:57:00.492011965 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 4.028796ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200c2370 0xc420177f40}                 
+[37mDEBU[0m[0000] &{Master:0xc42015b940 Replicas:[] User:0xc420196008 Project:0xc420196010 Category:0xc420196018} 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-11-05 17:04:45.087324209 +0800 CST
+[34mINFO[0m[0002]                                              
+[34mINFO[0m[0002] 2016-11-05 17:04:47.146442208 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 9.440956ms 
+[34mINFO[0m[0002]                                              
+[34mINFO[0m[0002] 2016-11-05 17:04:47.982893492 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 3.789611ms 
+[34mINFO[0m[0003]                                              
+[34mINFO[0m[0003] 2016-11-05 17:04:48.488747688 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 1.85563ms 
+[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[34mINFO[0m[0000] init db success...                            [34mserver[0m=starting
+[37mDEBU[0m[0000] &{0xc4200a4420 0xc420155f40}                 
+[37mDEBU[0m[0000] &{Master:0xc420139a40 Replicas:[] User:0xc42002a660 Project:0xc42002a668 Category:0xc42002a670} 
+[34mINFO[0m[0000] starting in development on :6008              [34mtime[0m=2016-11-05 17:05:29.203711228 +0800 CST
+[34mINFO[0m[0002]                                              
+[34mINFO[0m[0002] 2016-11-05 17:05:31.99424407 +0800 CST GET /api/v1/apps for 127.0.0.1:6008 used time: 4.61691ms 

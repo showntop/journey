@@ -1,0 +1,27 @@
+{
+	"host":{
+		"album": "http://photo.scloud.letv.com",
+		"diff": "http://diff.scloud.letv.com",
+        "staticPath": "http://static2.scloud.letv.com",
+        "homePath": "http://cloud.le.com",
+		"ssoPath": "http://sso.scloud.letv.com",
+		"redirectPath": "http://cloud.le.com/account"
+	},
+	"database":{
+		"addr":     "127.0.0.1:5432",
+		"user":     "journey",
+		"password": "123456",
+		"dbname":   "journey"
+	},
+	"redis":{
+		"addr": ["10.127.96.30:6001", "10.127.96.33:6001", "10.127.96.80:6001"],
+        "passwd": "RFFQWOHIH9"
+	},
+	"default_locale": "zh-cn",
+	"log_level": 5,
+	"env": "beta",
+	"log_path":"./log/gallery.log",
+    "tmpl_path": "./views",
+    "i18n_path": "/home/xiaorongtao/work/src/minerva/scloud/lecloud/gallery/gallery.v2/i18n",
+	"server_port": ":6008"
+}
