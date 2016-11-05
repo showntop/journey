@@ -1,7 +1,6 @@
 # journey
 app repository
 
-
 # api specification
 
 ---------------------
