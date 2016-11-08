@@ -17,9 +17,13 @@ type Projects struct {
 
 func (p *Projects) List(req *http.Request) ([]byte, *HttpError) {
 	queryValues := req.URL.Query()
+	categoryId, _ := strconv.Atoi(queryValues.Get("category_id"))
 	pageNo, _ := strconv.Atoi(queryValues.Get("page_no"))
 	pageNum, _ := strconv.Atoi(queryValues.Get("page_num"))
-	projects, err := StoreM.Project.FindAll(pageNo, pageNum)
+	ptype := queryValues.Get("scope")
+	_ = ptype
+
+	projects, err := StoreM.Project.FindAllByCategory(categoryId, pageNo, pageNum)
 	if err != nil {
 		log.Errorln("projects database error", err)
 		return nil, DBErr

@@ -42,7 +42,6 @@ func setupDB(config map[string]interface{}) *pg.DB {
 		// Whether to use secure TCP/IP connections (TLS).
 
 	})
-	db.Exec("select * from users")
 	log.WithField("server", "starting").Info("init db success...")
 	log.Debug(db)
 	return db

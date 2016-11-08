@@ -19,6 +19,20 @@ func (u *ProjectStore) FindAll(offset, limit int) ([]*models.Project, error) {
 		}
 	}
 	//pos
+	return projects, err
+}
+
+func (u *ProjectStore) FindAllByCategory(cid int, offset, limit int) ([]*models.Project, error) {
+	projects := []*models.Project{}
+	err := u.Master.Model(&projects).Column("project.*", "TagArray").Where("category_id = ?", cid).Offset(offset).Limit(limit).Select()
+
+	///pos
+	for _, p := range projects {
+		for _, tag := range p.TagArray {
+			p.Tags = append(p.Tags, tag.Name)
+		}
+	}
+	//pos
 
 	return projects, err
 }
