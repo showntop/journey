@@ -23,5 +23,5 @@
 	"log_path":"./log/gallery.log",
     "tmpl_path": "./views",
     "i18n_path": "/home/xiaorongtao/work/src/minerva/scloud/lecloud/gallery/gallery.v2/i18n",
-	"server_port": ":6008"
+	"server_port": ":7007"
 }
