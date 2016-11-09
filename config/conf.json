@@ -1,27 +1,27 @@
 {
 	"host":{
-		"album": "http://photo.scloud.letv.com",
-		"diff": "http://diff.scloud.letv.com",
-        "staticPath": "http://static2.scloud.letv.com",
-        "homePath": "http://cloud.le.com",
-		"ssoPath": "http://sso.scloud.letv.com",
-		"redirectPath": "http://cloud.le.com/account"
+		
 	},
 	"database":{
-		"addr":     "127.0.0.1:5432",
-		"user":     "journey",
-		"password": "123456",
-		"dbname":   "journey"
+		"addr":     "ec2-54-243-201-19.compute-1.amazonaws.com",
+		"user":     "ynazkzqhiihmle",
+		"password": "sLlrp2_gLeJCoGYvVXt3Ts1jNY",
+		"dbname":   "dbl153jnanfv0h"
 	},
-	"redis":{
-		"addr": ["10.127.96.30:6001", "10.127.96.33:6001", "10.127.96.80:6001"],
-        "passwd": "RFFQWOHIH9"
-	},
+	"redis": {
+        "addr": ["",""],
+        "passwd": "",
+        "poolsize": 10,
+        "idletimeout": 300,
+        "dialtimeout": 10,
+        "readtimeout": 5,
+        "writetimeout": 10
+    },
 	"default_locale": "zh-cn",
 	"log_level": 5,
 	"env": "beta",
-	"log_path":"./log/gallery.log",
+	"log_path":"./log/develop.log",
     "tmpl_path": "./views",
-    "i18n_path": "/home/xiaorongtao/work/src/minerva/scloud/lecloud/gallery/gallery.v2/i18n",
+    "i18n_path": "",
 	"server_port": ":7007"
 }

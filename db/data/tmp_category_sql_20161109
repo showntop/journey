@@ -1,0 +1,13 @@
+insert into categories(id, name, created_at, updated_at) values(16110000, '模拟养成', '2016-11-09 18:48:31', '2016-11-09 18:48:31');
+insert into categories(id, name, created_at, updated_at) values(16110001, '休闲益智', '2016-11-09 18:48:31', '2016-11-09 18:48:31');
+insert into categories(id, name, created_at, updated_at) values(16110002, '策略冒险', '2016-11-09 18:48:31', '2016-11-09 18:48:31');
+insert into categories(id, name, created_at, updated_at) values(16110003, '卡牌对战', '2016-11-09 18:48:31', '2016-11-09 18:48:31');
+insert into categories(id, name, created_at, updated_at) values(16110004, '塔防游戏', '2016-11-09 18:48:31', '2016-11-09 18:48:31');
+insert into categories(id, name, created_at, updated_at) values(16110005, '飞行射击', '2016-11-09 18:48:31', '2016-11-09 18:48:31');
+insert into categories(id, name, created_at, updated_at) values(16110006, '动作格斗', '2016-11-09 18:48:31', '2016-11-09 18:48:31');
+insert into categories(id, name, created_at, updated_at) values(16110007, '角色扮演', '2016-11-09 18:48:31', '2016-11-09 18:48:31');
+insert into categories(id, name, created_at, updated_at) values(16110008, '赛车竞速', '2016-11-09 18:48:31', '2016-11-09 18:48:31');
+insert into categories(id, name, created_at, updated_at) values(16110009, '棋牌天地', '2016-11-09 18:48:31', '2016-11-09 18:48:31');
+insert into categories(id, name, created_at, updated_at) values(16110010, '其它', '2016-11-09 18:48:31', '2016-11-09 18:48:31');
+insert into categories(id, name, created_at, updated_at) values(16110011, '无广告,安全,无限金币', '2016-11-09 18:48:31', '2016-11-09 18:48:31');
+insert into categories(id, name, created_at, updated_at) values(16110012, '无广告,安全,无限金币,破解内购', '2016-11-09 18:48:31', '2016-11-09 18:48:31');
