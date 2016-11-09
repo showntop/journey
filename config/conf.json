@@ -3,7 +3,7 @@
 		
 	},
 	"database":{
-		"addr":     "ec2-54-243-201-19.compute-1.amazonaws.com",
+		"addr":     "ec2-54-243-201-19.compute-1.amazonaws.com:5432",
 		"user":     "ynazkzqhiihmle",
 		"password": "sLlrp2_gLeJCoGYvVXt3Ts1jNY",
 		"dbname":   "dbl153jnanfv0h"

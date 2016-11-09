@@ -22,5 +22,5 @@ _testmain.go
 *.exe
 *.test
 *.prof
-log/gallery.log
-db/migrations/*.sql
+log/develop.log
+db/migrations/*sql*

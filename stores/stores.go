@@ -2,6 +2,7 @@ package stores
 
 import (
 	// "fmt"
+	"crypto/tls"
 
 	log "github.com/Sirupsen/logrus"
 	"gopkg.in/pg.v5"
@@ -39,6 +40,9 @@ func setupDB(config map[string]interface{}) *pg.DB {
 		User:     config["user"].(string),
 		Password: config["password"].(string),
 		Database: config["dbname"].(string),
+		TLSConfig: &tls.Config{
+			InsecureSkipVerify: true,
+		},
 		// Whether to use secure TCP/IP connections (TLS).
 
 	})
