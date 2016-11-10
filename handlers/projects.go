@@ -8,6 +8,7 @@ import (
 	log "github.com/Sirupsen/logrus"
 	"github.com/julienschmidt/httprouter"
 
+	"github.com/showntop/journey/models"
 	. "github.com/showntop/journey/stores"
 )
 
@@ -23,12 +24,17 @@ func (p *Projects) List(req *http.Request) ([]byte, *HttpError) {
 	ptype := queryValues.Get("scope")
 	_ = ptype
 
-	projects, err := StoreM.Project.FindAllByCategory(categoryId, pageNo, pageNum)
+	var projects []*models.Project
+	var err error
+	if categoryId <= 0 {
+		projects, err = StoreM.Project.FindAll(pageNo, pageNum)
+	} else {
+		projects, err = StoreM.Project.FindAllByCategory(categoryId, pageNo, pageNum)
+	}
 	if err != nil {
 		log.Errorln("projects database error", err)
 		return nil, DBErr
 	}
-
 	output, err := json.Marshal(WrapRespData(projects))
 	if err != nil {
 		log.Warnln("projects marshal projects,", err)

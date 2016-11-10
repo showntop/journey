@@ -10,14 +10,14 @@ type Project struct {
 	Base
 	CategoryId  int    `json:"category_id"`
 	Name        string `json:"name"`
-	Version     string
-	Description string
-	Size        int
-	LogoURL     string
-	Dlink       string
+	Version     string `json:"version"`
+	Description string `json:"description"`
+	Size        int    `json:"size"`
+	LogoURL     string `json:"logo_url"`
+	Dlink       string `json:"download_url"`
 	Assets      []*ProjectAsset
-	TagArray    []*Tag `json:"-" pg:",many2many:project_tags"`
-	Tags        []string
+	TagArray    []*Tag   `json:"-" pg:",many2many:project_tags"`
+	Tags        []string `json:"tags"`
 }
 
 type ProjectAsset struct {

@@ -5,7 +5,7 @@ import (
 )
 
 type Base struct {
-	Id        int       `json:"id,string" sql:",pk"`
+	Id        int       `json:"id" sql:",pk"`
 	CreatedAt time.Time `json:"-"`
 	UpdatedAt time.Time `json:"-"`
 }

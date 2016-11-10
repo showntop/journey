@@ -19,7 +19,7 @@ class Project
  			item = Hash.new
  			item["id"] = base_id + i
  			item["name"] = e["name"]
- 			item["description"] = e["info"]
+ 			item["description"] = e["info"].gsub(/\r\n/, "<br>").gsub("'","''")
  			item["version"] = e["version"]
  			item["size"] = e["size"]
  			item["dlink"] = e["download_url"]
