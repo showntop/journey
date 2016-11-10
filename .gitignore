@@ -23,4 +23,4 @@ _testmain.go
 *.test
 *.prof
 log/develop.log
-db/migrations/*sql*
+db/data/*sql*
