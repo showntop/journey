@@ -2,6 +2,7 @@ package main
 
 import (
 	"net/http"
+	"net/http/httputil"
 	"os"
 	"reflect"
 	"runtime"
@@ -22,6 +23,8 @@ type Middleware struct {
 }
 
 func (m *Middleware) ServeHTTP(rw http.ResponseWriter, req *http.Request) {
+	dump, _ := httputil.DumpRequest(req, true)
+
 	log.Infoln()
 	startTime := time.Now()
 	for i, j := 0, len(m.BeforeFilters); i < j; i++ {
@@ -33,7 +36,8 @@ func (m *Middleware) ServeHTTP(rw http.ResponseWriter, req *http.Request) {
 	}
 	m.mmux.ServeHTTP(rw, req)
 	usedTime := time.Since(startTime)
-	log.Infof("%s %s %s for %s used time: %s", time.Now().String(), req.Method, req.URL.Path, req.Host, usedTime)
+
+	log.Infof("%s %s %s for %s used time: %s \n%s\n", time.Now().String(), req.Method, req.URL.Path, req.Host, usedTime, dump)
 }
 
 func (m *Middleware) AddBeforeFilter(f Filter) {

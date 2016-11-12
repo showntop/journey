@@ -61,6 +61,54 @@ func Instrument() *httprouter.Router {
 		rw.Write(results)
 	})
 
+	router.GET("/api/v1/app/:project_id/posts", func(rw http.ResponseWriter, req *http.Request, ps httprouter.Params) {
+		rw.Header().Set("Content-Type", "application/json")
+		postsC := new(handlers.Posts)
+		results, err := postsC.List(req, ps)
+		if err != nil {
+			// rw.Write([]byte(err.Error()))
+			rw.Write(WrapErrorResp(err))
+			return
+		}
+		rw.Write(results)
+	})
+
+	router.PUT("/api/v1/posts/:id/likes", func(rw http.ResponseWriter, req *http.Request, ps httprouter.Params) {
+		rw.Header().Set("Content-Type", "application/json")
+		postsC := new(handlers.Posts)
+		results, err := postsC.CreateLike(req, ps)
+		if err != nil {
+			// rw.Write([]byte(err.Error()))
+			rw.Write(WrapErrorResp(err))
+			return
+		}
+		rw.Write(results)
+	})
+
+	router.PUT("/api/v1/posts/:id/comments", func(rw http.ResponseWriter, req *http.Request, ps httprouter.Params) {
+		rw.Header().Set("Content-Type", "application/json")
+		postsC := new(handlers.Posts)
+		results, err := postsC.CreateComment(req, ps)
+		if err != nil {
+			// rw.Write([]byte(err.Error()))
+			rw.Write(WrapErrorResp(err))
+			return
+		}
+		rw.Write(results)
+	})
+
+	router.POST("/api/v1/posts", func(rw http.ResponseWriter, req *http.Request, ps httprouter.Params) {
+		rw.Header().Set("Content-Type", "application/json")
+		postsC := new(handlers.Posts)
+		results, err := postsC.Create(req)
+		if err != nil {
+			// rw.Write([]byte(err.Error()))
+			rw.Write(WrapErrorResp(err))
+			return
+		}
+		rw.Write(results)
+	})
+
 	router.POST("/api/v1/users", func(rw http.ResponseWriter, req *http.Request, ps httprouter.Params) {
 		rw.Header().Set("Content-Type", "application/json")
 		usersC := new(handlers.Users)
