@@ -16,6 +16,7 @@ type Store struct {
 	User     *UserStore
 	Project  *ProjectStore
 	Category *CategoryStore
+	Asset    *AssetStore
 }
 
 var (
@@ -30,6 +31,7 @@ func SetupStorage() {
 	StoreM.User = &UserStore{StoreM}
 	StoreM.Project = &ProjectStore{StoreM}
 	StoreM.Category = &CategoryStore{StoreM}
+	StoreM.Asset = &AssetStore{StoreM}
 	log.Debugf("%+v", StoreM)
 
 }

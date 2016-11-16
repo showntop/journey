@@ -8,6 +8,10 @@ type ProjectStore struct {
 	*Store
 }
 
+func (p *ProjectStore) FindWith(tagId int64, key string, offset, limit int) ([]*models.Project, error) {
+	p.Master.Model(&projects).Where(where, ...)
+}
+
 func (u *ProjectStore) FindAll(offset, limit int) ([]*models.Project, error) {
 	projects := []*models.Project{}
 	err := u.Master.Model(&projects).Column("project.*", "TagArray").Offset(offset).Limit(limit).Select()

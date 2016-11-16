@@ -64,3 +64,11 @@ func (p *Projects) Show(req *http.Request, ps httprouter.Params) ([]byte, *HttpE
 	}
 	return output, nil
 }
+
+func (p *Projects) Search(req *http.Request, ps httprouter.Params) ([]byte, *HttpError) {
+	query := req.URL.Query()
+	tag := query.Get("tag")
+	key := query.Get("key")
+
+	StoreM.Project.FindWith(tag, key)
+}

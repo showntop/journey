@@ -25,10 +25,22 @@ func WrapErrorResp(err *handlers.HttpError) []byte {
 func Instrument() *httprouter.Router {
 	router := httprouter.New()
 
+	router.GET("/api/v1/assets", func(rw http.ResponseWriter, req *http.Request, ps httprouter.Params) {
+		rw.Header().Set("Content-Type", "application/json")
+		categoriesC := new(handlers.Assets)
+		results, err := categoriesC.List(req)
+		if err != nil {
+			// http.Error(rw, err.Error(), err.Code)
+			rw.Write(WrapErrorResp(err))
+			return
+		}
+		rw.Write(results)
+	})
+
 	router.GET("/api/v1/categories", func(rw http.ResponseWriter, req *http.Request, ps httprouter.Params) {
 		rw.Header().Set("Content-Type", "application/json")
-		categoriesC := new(handlers.Categories)
-		results, err := categoriesC.List(req)
+		assetsC := new(handlers.Categories)
+		results, err := assetsC.List(req)
 		if err != nil {
 			// http.Error(rw, err.Error(), err.Code)
 			rw.Write(WrapErrorResp(err))
