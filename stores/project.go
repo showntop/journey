@@ -1,6 +1,8 @@
 package stores
 
 import (
+	"fmt"
+
 	"github.com/showntop/journey/models"
 )
 
@@ -42,8 +44,10 @@ func (p *ProjectStore) FindWithKey(key string, offset, limit int) ([]*models.Pro
 }
 
 func (u *ProjectStore) FindAll(offset, limit int) ([]*models.Project, error) {
+	fmt.Println(offset)
+	fmt.Println(limit)
 	projects := []*models.Project{}
-	err := u.Master.Model(&projects).Column("project.*", "TagArray").Offset(offset).Limit(limit).Select()
+	err := u.Master.Model(&projects).Column("project.*", "TagArray").Offset((offset - 1) * limit).Limit(limit).Select()
 
 	///pos
 	for _, p := range projects {
@@ -55,7 +59,7 @@ func (u *ProjectStore) FindAll(offset, limit int) ([]*models.Project, error) {
 	return projects, err
 }
 
-func (u *ProjectStore) FindAllByCategory(cid int, offset, limit int) ([]*models.Project, error) {
+func (u *ProjectStore) FindAllByCategory(cid int64, offset, limit int) ([]*models.Project, error) {
 	projects := []*models.Project{}
 	err := u.Master.Model(&projects).Column("project.*", "TagArray").Where("category_id = ?", cid).Offset(offset).Limit(limit).Select()
 
