@@ -16,25 +16,31 @@ func (p *Components) List(req *http.Request) ([]byte, *HttpError) {
 	{
 		"data": [
 			{
-				"name": "最新",
-				"icon": "",
+				"name": "活动",
+				"icon": "http://ohan0t6mr.bkt.clouddn.com/activity.png",
 				"api_path": ""
 			},			
 			{
-				"name": "最新",
-				"icon": "",
+				"name": "最热",
+				"icon": "http://ohan0t6mr.bkt.clouddn.com/hottest.png",
 				"api_path": ""
 			},
 			
 			{
 				"name": "最新",
-				"icon": "",
+				"icon": "http://ohan0t6mr.bkt.clouddn.com/latest.png",
 				"api_path": ""
 			},
 			
 			{
-				"name": "最新",
+				"name": "推荐",
 				"icon": "",
+				"api_path": "http://ohan0t6mr.bkt.clouddn.com/recommend.png"
+			},
+			
+			{
+				"name": "破解",
+				"icon": "http://ohan0t6mr.bkt.clouddn.com/unlock.png",
 				"api_path": ""
 			}
 	
