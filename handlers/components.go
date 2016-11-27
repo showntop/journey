@@ -1,7 +1,9 @@
 package handlers
 
 import (
+	// "encoding/json"
 	"net/http"
+	// log "github.com/Sirupsen/logrus"
 )
 
 type Components struct {
@@ -9,8 +11,10 @@ type Components struct {
 }
 
 func (p *Components) List(req *http.Request) ([]byte, *HttpError) {
-	return []byte(`
-		[
+
+	dataStr := `
+	{
+		"data": [
 			{
 				"name": "最新",
 				"icon": "",
@@ -34,6 +38,11 @@ func (p *Components) List(req *http.Request) ([]byte, *HttpError) {
 				"api_path": ""
 			}
 	
-		]
-	`), nil
+		],
+		"message": "成功",
+		"state_code": 200	
+	}
+	`
+
+	return []byte(dataStr), nil
 }

@@ -31,15 +31,10 @@ func (p *ProjectStore) FindWith(querySQL string, offset, limit int) (models.Proj
 // 	return projects, err
 // }
 
-func (p *ProjectStore) FindWithTag(tagId int64, offset, limit int) ([]*models.Project, error) {
-	var projects []*models.Project
-	err := p.Master.Model(&projects).Column("project.*", "TagArray").Where("tag_id = ?", tagId).Select()
-	return projects, err
-}
-
 func (p *ProjectStore) FindWithKey(key string, offset, limit int) ([]*models.Project, error) {
+	key = "%" + key + "%"
 	var projects []*models.Project
-	err := p.Master.Model(&projects).Column("project.*", "TagArray").Where("name like ? or description like ?", key).Select()
+	err := p.Master.Model(&projects).Column("project.*", "TagArray").Where("name like ? or description like ?", key, key).Select()
 	return projects, err
 }
 
@@ -71,6 +66,12 @@ func (u *ProjectStore) FindAllByCategory(cid int64, offset, limit int) ([]*model
 	}
 	//pos
 
+	return projects, err
+}
+
+func (p *ProjectStore) FindWithTag(tagId int64, offset, limit int) ([]*models.Project, error) {
+	var projects []*models.Project
+	err := p.Master.Model(&projects).Column("project.*", "TagArray").Where("tag_id = ?", tagId).Select()
 	return projects, err
 }
 
