@@ -11,16 +11,37 @@ type AssetStore struct {
 }
 
 var (
-	staticAssets = [...]string{"", ""}
+	bootAssets = [...]*models.Asset{
+		&models.Asset{
+			URL:    "http://oginbhz1c.bkt.clouddn.com/5882b2b7d0a20cf482c772bf73094b36acaf997f.jpg",
+			Action: "xxxx",
+		},
+	}
+
+	bannerAssets = [...]*models.Asset{
+		&models.Asset{
+			URL:    "http://oginbhz1c.bkt.clouddn.com/5882b2b7d0a20cf482c772bf73094b36acaf997f.jpg",
+			Action: "xxxx",
+		},
+		&models.Asset{
+			URL:    "http://oginbhz1c.bkt.clouddn.com/5882b2b7d0a20cf482c772bf73094b36acaf997f.jpg",
+			Action: "xxxx",
+		},
+		&models.Asset{
+			URL:    "http://oginbhz1c.bkt.clouddn.com/5882b2b7d0a20cf482c772bf73094b36acaf997f.jpg",
+			Action: "xxxx",
+		},
+		&models.Asset{
+			URL:    "http://oginbhz1c.bkt.clouddn.com/5882b2b7d0a20cf482c772bf73094b36acaf997f.jpg",
+			Action: "xxxx",
+		},
+	}
 )
 
 func (u *AssetStore) FindAllWith(ftype string) ([]*models.Asset, error) {
-	var assets []*models.Asset
-	for _, url := range staticAssets {
-		asset := &models.Asset{
-			URL: url,
-		}
-		assets = append(assets, asset)
+	if ftype == "boot" {
+		return bootAssets[:], nil
+	} else {
+		return bannerAssets[:], nil
 	}
-	return assets, nil
 }

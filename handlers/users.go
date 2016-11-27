@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	// log "github.com/Sirupsen/logrus"
+	log "github.com/Sirupsen/logrus"
 
 	"github.com/showntop/journey/models"
 	. "github.com/showntop/journey/stores"
@@ -44,6 +44,7 @@ func (u *Users) Create(req *http.Request) ([]byte, *HttpError) {
 	//save
 	err = StoreM.User.Create(user)
 	if err != nil {
+		log.Error("server error:", err)
 		return nil, DBErr
 	}
 

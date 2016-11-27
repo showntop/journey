@@ -36,3 +36,13 @@ type ProjectTag struct {
 	ProjectId int
 	TagId     int
 }
+
+type ProjectList []*struct {
+	Id      int64    `json:"id"`
+	Name    string   `json:"name"`
+	Size    int64    `json:"size"`
+	Version string   `json:"version"`
+	LogoURL string   `json:"logo_url"`
+	Dlink   string   `json:"dlink"`
+	Tags    []string `json:tags`
+}

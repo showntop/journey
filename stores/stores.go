@@ -3,6 +3,8 @@ package stores
 import (
 	// "fmt"
 	"crypto/tls"
+	log2 "log"
+	"os"
 
 	log "github.com/Sirupsen/logrus"
 	"gopkg.in/pg.v5"
@@ -17,6 +19,7 @@ type Store struct {
 	Project  *ProjectStore
 	Category *CategoryStore
 	Asset    *AssetStore
+	Post     *PostStore
 }
 
 var (
@@ -32,6 +35,7 @@ func SetupStorage() {
 	StoreM.Project = &ProjectStore{StoreM}
 	StoreM.Category = &CategoryStore{StoreM}
 	StoreM.Asset = &AssetStore{StoreM}
+	StoreM.Post = &PostStore{StoreM}
 	log.Debugf("%+v", StoreM)
 
 }
@@ -48,6 +52,8 @@ func setupDB(config map[string]interface{}) *pg.DB {
 		// Whether to use secure TCP/IP connections (TLS).
 
 	})
+	pg.SetQueryLogger(log2.New(os.Stdout, "postgres", 1))
+	pg.SetLogger(log2.New(os.Stdout, "postgres", 1))
 	log.WithField("server", "starting").Info("init db success...")
 	log.Debug(db)
 	return db
