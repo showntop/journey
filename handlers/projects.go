@@ -57,7 +57,7 @@ func (p *Projects) List(req *http.Request) ([]byte, *HttpError) {
 	// } else {
 	// 	projects, err = StoreM.Project.FindAllByCategory(categoryId, pageNo, pageNum)
 	// }
-	projects, err := StoreM.Project.FindWith(querySQL, pageNo, pageNum)
+	projects, err := StoreM.Project.FindAll(pageNo, pageNum)
 	if err != nil {
 		log.Errorln("projects database error", err)
 		return nil, DBErr

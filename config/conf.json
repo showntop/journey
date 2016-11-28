@@ -8,6 +8,7 @@
 		"password": "sLlrp2_gLeJCoGYvVXt3Ts1jNY",
 		"dbname":   "dbl153jnanfv0h"
 	},
+	"dbstr": "postgres://ynazkzqhiihmle:sLlrp2_gLeJCoGYvVXt3Ts1jNY@ec2-54-243-201-19.compute-1.amazonaws.com:5432/dbl153jnanfv0h",
 	"redis": {
         "addr": ["",""],
         "passwd": "",

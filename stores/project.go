@@ -8,9 +8,9 @@ type ProjectStore struct {
 	*Store
 }
 
-func (p *ProjectStore) FindWith(querySQL string, offset, limit int) (models.ProjectList, error) {
+func (p *ProjectStore) FindWith(querySQL string, offset, limit int) (interface{}, error) {
 	var projects models.ProjectList
-	err := p.Master.Model(&models.Project{}).Column("Id", "Name", "Size", "Version", "LogoURL", "Dlink", "Tags").Where(querySQL).Select(&projects)
+	err := p.Master.Model(&[]*models.Project{}).Column("project.id", "TagArray").Offset(offset).Limit(limit).Select(&projects)
 
 	return projects, err
 }
@@ -43,7 +43,7 @@ func (p *ProjectStore) FindWithKey(key string, offset, limit int) ([]*models.Pro
 
 func (u *ProjectStore) FindAll(offset, limit int) ([]*models.Project, error) {
 	projects := []*models.Project{}
-	err := u.Master.Model(&projects).Column("project.*", "TagArray").Offset(offset).Limit(limit).Select()
+	err := u.Master.Model(&projects).Column("project.*", "TagArray").Offset(offset).Limit(limit).Select("project.id")
 
 	///pos
 	for _, p := range projects {

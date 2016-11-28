@@ -18,6 +18,7 @@ type configure struct {
 	LogPath       string                 `json:"log_path"`
 	LogLevel      log.Level              `json:"log_level"`
 	Database      map[string]interface{} `json:"database"`
+	Dbstr         string                 `json:"dbstr"`
 	Redis         map[string]interface{} `json:"redis"`
 }
 
