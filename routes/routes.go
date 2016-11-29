@@ -25,6 +25,30 @@ func WrapErrorResp(err *handlers.HttpError) []byte {
 func Instrument() *httprouter.Router {
 	router := httprouter.New()
 
+	router.GET("/api/v1/subjects", func(rw http.ResponseWriter, req *http.Request, ps httprouter.Params) {
+		rw.Header().Set("Content-Type", "application/json")
+		SubjectsC := new(handlers.Subjects)
+		results, err := SubjectsC.List(req, ps)
+		if err != nil {
+			// http.Error(rw, err.Error(), err.Code)
+			rw.Write(WrapErrorResp(err))
+			return
+		}
+		rw.Write(results)
+	})
+
+	router.GET("/api/v1/components", func(rw http.ResponseWriter, req *http.Request, ps httprouter.Params) {
+		rw.Header().Set("Content-Type", "application/json")
+		ComponentsC := new(handlers.Components)
+		results, err := ComponentsC.List(req)
+		if err != nil {
+			// http.Error(rw, err.Error(), err.Code)
+			rw.Write(WrapErrorResp(err))
+			return
+		}
+		rw.Write(results)
+	})
+
 	router.GET("/api/v1/assets", func(rw http.ResponseWriter, req *http.Request, ps httprouter.Params) {
 		rw.Header().Set("Content-Type", "application/json")
 		categoriesC := new(handlers.Assets)
@@ -53,6 +77,18 @@ func Instrument() *httprouter.Router {
 		rw.Header().Set("Content-Type", "application/json")
 		projectsC := new(handlers.Projects)
 		results, err := projectsC.List(req)
+		if err != nil {
+			// http.Error(rw, err.Error(), err.Code)
+			rw.Write(WrapErrorResp(err))
+			return
+		}
+		rw.Write(results)
+	})
+
+	router.GET("/api/v1/search", func(rw http.ResponseWriter, req *http.Request, ps httprouter.Params) {
+		rw.Header().Set("Content-Type", "application/json")
+		projectsC := new(handlers.Projects)
+		results, err := projectsC.Search(req, ps)
 		if err != nil {
 			// http.Error(rw, err.Error(), err.Code)
 			rw.Write(WrapErrorResp(err))

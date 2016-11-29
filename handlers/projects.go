@@ -8,7 +8,7 @@ import (
 	log "github.com/Sirupsen/logrus"
 	"github.com/julienschmidt/httprouter"
 
-	// "github.com/showntop/journey/models"
+	"github.com/showntop/journey/models"
 	. "github.com/showntop/journey/stores"
 )
 
@@ -20,26 +20,12 @@ func (p *Projects) List(req *http.Request) ([]byte, *HttpError) {
 	queryValues := req.URL.Query()
 
 	//conditions
-	// var categoryId, tagId int64
+	var categoryId, tagId int64
+	_ = tagId
 	var pageNo, pageNum int
 	// var key string
 	var err error
 
-	var querySQL string = "true"
-
-	if cidstr := queryValues.Get("category_id"); cidstr != "" {
-		// categoryId, _ = strconv.ParseInt(cidstr, 10, 64)
-		querySQL += " and category_id = " + cidstr
-	}
-	if tidstr := queryValues.Get("tag_id"); tidstr != "" {
-		// tagId, _ = strconv.ParseInt(tidstr, 10, 64)
-		querySQL += " and tag_id = " + tidstr
-	}
-	log.Debugf("key:  %v", queryValues.Get("key"))
-	if pkey := queryValues.Get("key"); pkey != "" {
-		// key = pkey
-		querySQL += " and (name like '%" + pkey + "%' or " + " description like '%" + pkey + "%')"
-	}
 	if pno := queryValues.Get("page_no"); pno != "" {
 		if pageNo, err = strconv.Atoi(pno); err != nil {
 			pageNo = 1 //default
@@ -57,7 +43,13 @@ func (p *Projects) List(req *http.Request) ([]byte, *HttpError) {
 	// } else {
 	// 	projects, err = StoreM.Project.FindAllByCategory(categoryId, pageNo, pageNum)
 	// }
-	projects, err := StoreM.Project.FindAll((pageNo-1)*pageNum, pageNum)
+
+	var projects []*models.Project
+	if categoryId <= 0 {
+		projects, err = StoreM.Project.FindAll((pageNo-1)*pageNum, pageNum)
+	} else {
+		projects, err = StoreM.Project.FindAllByCategory(categoryId, (pageNo-1)*pageNum, pageNum)
+	}
 	if err != nil {
 		log.Errorln("projects database error", err)
 		return nil, DBErr

@@ -14,7 +14,12 @@ type Assets struct {
 }
 
 func (a *Assets) List(req *http.Request) ([]byte, *HttpError) {
-	assets, err := StoreM.Asset.FindAllWith("boot")
+	var atype string = "boot"
+	query := req.URL.Query()
+	if qtype := query.Get("type"); qtype != "" {
+		atype = qtype
+	}
+	assets, err := StoreM.Asset.FindAllWith(atype)
 	if err != nil {
 		log.Errorln("assets database error", err)
 		return nil, DBErr

@@ -2,6 +2,9 @@ package models
 
 type Asset struct {
 	Base
-	Name string `json:"name"`
-	URL  string `json:"url"`
+	Type   int               `json:"-"`
+	Name   string            `json:"name"`
+	URL    string            `json:"url"`
+	Action string            `json:"action"`
+	Params map[string]string `json:"params"`
 }
