@@ -8,21 +8,22 @@ var _ = fmt.Println
 
 type Project struct {
 	Base
-	CategoryId  int      `json:"category_id"`
-	Name        string   `json:"name"`
-	Version     string   `json:"version"`
-	Description string   `json:"description"`
-	Size        int      `json:"size"`
-	LogoURL     string   `json:"logo_url"`
-	Dlink       string   `json:"download_url"`
-	Assets      []string `json:"assets,omitempty"`
-	TagArray    []*Tag   `json:"-" pg:",many2many:project_tags"`
-	Tags        []string `json:"tags"`
+	CategoryId  int         `json:"category_id"`
+	Name        string      `json:"name"`
+	Version     string      `json:"version"`
+	Description string      `json:"description"`
+	Size        int         `json:"size"`
+	LogoURL     string      `json:"logo_url"`
+	Dlink       string      `json:"download_url"`
+	Assets      StringSlice `json:"assets,omitempty"`
+	Tags        []Tag       `json:"tags" gorm:"many2many:project_tags;"`
+	// Tags        []string `json:"tags"`
 }
 
 type Tag struct {
 	Base
 	Name string
+	// Projects []Project `gorm:"many2many:project_tags;"`
 }
 
 type ProjectTag struct {

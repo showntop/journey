@@ -1,8 +1,6 @@
 package stores
 
 import (
-	"gopkg.in/pg.v5"
-
 	"github.com/showntop/journey/models"
 )
 
@@ -12,15 +10,15 @@ type UserStore struct {
 
 func (u *UserStore) Create(user *models.User) error {
 
-	err := u.Master.Insert(user)
+	err := u.Master.Create(user).Error
 	return err
 }
 
 func (u *UserStore) FindBy(filedV string) (*models.User, error) {
 	user := &models.User{}
-	err := u.Master.Model(user).Where("username = ?", filedV).First()
-	if pg.ErrNoRows == err {
+	err := u.Master.Where("username = ?", filedV).First(user)
+	if err.RecordNotFound() {
 		return nil, nil
 	}
-	return user, err
+	return user, err.Error
 }

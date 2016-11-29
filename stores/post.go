@@ -10,25 +10,25 @@ type PostStore struct {
 
 func (p *PostStore) FindByProject(projectId int, offset, limit int) ([]*models.Post, error) {
 	posts := []*models.Post{}
-	err := p.Master.Model(&posts).Column("post.*", "Comments").Offset(offset).Limit(limit).Select()
+	err := p.Master.Offset(offset).Limit(limit).Model(&posts).Related(&[]*models.PostComment{}).Error
 	//pos
 	return posts, err
 }
 
 func (p *PostStore) Create(post *models.Post) error {
 
-	err := p.Master.Insert(post)
+	err := p.Master.Create(post).Error
 	return err
 }
 
 func (p *PostStore) CreateLike(like *models.PostLike) error {
 
-	err := p.Master.Insert(like)
+	err := p.Master.Create(like).Error
 	return err
 }
 
 func (p *PostStore) CreateComment(comment *models.PostComment) error {
 
-	err := p.Master.Insert(comment)
+	err := p.Master.Create(comment).Error
 	return err
 }

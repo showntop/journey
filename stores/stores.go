@@ -40,8 +40,8 @@ func SetupStorage() {
 }
 
 func setupDB() *gorm.DB {
-
 	db, err := gorm.Open("postgres", Config.Dbstr)
+	db.LogMode(true)
 	if err != nil {
 		log.Errorln(err)
 	}

@@ -46,8 +46,8 @@ func (p *Projects) List(req *http.Request) ([]byte, *HttpError) {
 		}
 	}
 	if pnum := queryValues.Get("page_num"); pnum != "" {
-		if pageNo, err = strconv.Atoi(pnum); err != nil {
-			pageNo = 15 //default
+		if pageNum, err = strconv.Atoi(pnum); err != nil {
+			pageNum = 15 //default
 		}
 	}
 
@@ -57,7 +57,7 @@ func (p *Projects) List(req *http.Request) ([]byte, *HttpError) {
 	// } else {
 	// 	projects, err = StoreM.Project.FindAllByCategory(categoryId, pageNo, pageNum)
 	// }
-	projects, err := StoreM.Project.FindAll(pageNo, pageNum)
+	projects, err := StoreM.Project.FindAll((pageNo-1)*pageNum, pageNum)
 	if err != nil {
 		log.Errorln("projects database error", err)
 		return nil, DBErr
@@ -72,7 +72,7 @@ func (p *Projects) List(req *http.Request) ([]byte, *HttpError) {
 
 func (p *Projects) Show(req *http.Request, ps httprouter.Params) ([]byte, *HttpError) {
 	pids := ps.ByName("id")
-	pidi, err := strconv.Atoi(pids)
+	pidi, err := strconv.ParseInt(pids, 10, 64)
 	if err != nil {
 		log.Errorln("projects database error", err)
 		return nil, BadRequestErr
@@ -92,22 +92,6 @@ func (p *Projects) Show(req *http.Request, ps httprouter.Params) ([]byte, *HttpE
 	return output, nil
 }
 
-// func (p *Projects) Search(req *http.Request, ps httprouter.Params) ([]byte, *HttpError) {
-// 	query := req.URL.Query()
-// 	tagId, _ := strconv.ParseInt(query.Get("tag_id"), 10, 64)
-// 	// key := query.Get("key")
-
-// 	projects, err := StoreM.Project.FindWithTag(tagId, 0, 10)
-// 	if err != nil {
-// 		return nil, DBErr
-// 	}
-// 	output, err := json.Marshal(WrapRespData(projects))
-// 	if err != nil {
-// 		log.Warnln("projects marshal projects,", err)
-// 		return output, BadRespErr
-// 	}
-// 	return output, nil
-// }
 func (p *Projects) Search(req *http.Request, ps httprouter.Params) ([]byte, *HttpError) {
 	query := req.URL.Query()
 	key := query.Get("key")

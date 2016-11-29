@@ -10,7 +10,7 @@ type CategoryStore struct {
 
 func (c *CategoryStore) FindAll() ([]*models.Category, error) {
 	categories := []*models.Category{}
-	err := c.Master.Model(&categories).Select()
+	err := c.Master.Find(&categories).Error
 
 	return categories, err
 }
