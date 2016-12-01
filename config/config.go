@@ -39,4 +39,7 @@ func init() {
 	if err = jsonParser.Decode(&Config); err != nil {
 		fmt.Println("parsing config file", err.Error())
 	}
+	if port := os.Getenv("PORT"); port != "" {
+		Config.ServerPort = ":" + port
+	}
 }
