@@ -15,6 +15,8 @@ type User struct {
 	Mobile         string `json:"mobile"`
 	Password       string `json:"password" sql:"-"`
 	HashedPassword string `json:"password" sql:"hashed_password"`
+
+	Token string `json:"token"`
 }
 
 func (u *User) Validate() error {

@@ -37,6 +37,30 @@ func Instrument() *httprouter.Router {
 		rw.Write(results)
 	})
 
+	router.POST("/api/v1/apps/:id/posts", func(rw http.ResponseWriter, req *http.Request, ps httprouter.Params) {
+		rw.Header().Set("Content-Type", "application/json")
+		PostsC := new(handlers.Posts)
+		results, err := PostsC.Create(req, ps)
+		if err != nil {
+			// http.Error(rw, err.Error(), err.Code)
+			rw.Write(WrapErrorResp(err))
+			return
+		}
+		rw.Write(results)
+	})
+
+	router.GET("/api/v1/apps/:id/posts", func(rw http.ResponseWriter, req *http.Request, ps httprouter.Params) {
+		rw.Header().Set("Content-Type", "application/json")
+		PostsC := new(handlers.Posts)
+		results, err := PostsC.List(req, ps)
+		if err != nil {
+			// http.Error(rw, err.Error(), err.Code)
+			rw.Write(WrapErrorResp(err))
+			return
+		}
+		rw.Write(results)
+	})
+
 	router.GET("/api/v1/components", func(rw http.ResponseWriter, req *http.Request, ps httprouter.Params) {
 		rw.Header().Set("Content-Type", "application/json")
 		ComponentsC := new(handlers.Components)

@@ -47,7 +47,7 @@ func (u *Users) Create(req *http.Request) ([]byte, *HttpError) {
 		log.Error("server error:", err)
 		return nil, DBErr
 	}
-
+	user.Token = models.CreateTokenFor(user)
 	//respose do
 	output, err := json.Marshal(WrapRespData(user))
 	if err != nil {

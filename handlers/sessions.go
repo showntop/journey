@@ -6,6 +6,7 @@ import (
 
 	log "github.com/Sirupsen/logrus"
 
+	"github.com/showntop/journey/models"
 	. "github.com/showntop/journey/stores"
 )
 
@@ -14,7 +15,7 @@ type Sessions struct {
 
 func (s *Sessions) Create(req *http.Request) ([]byte, *HttpError) {
 	lgoinInfo := &struct {
-		Username string `json:"username"`
+		Email    string `json:"email"`
 		Password string `json:"password"`
 	}{}
 	decoder := json.NewDecoder(req.Body)
@@ -24,7 +25,7 @@ func (s *Sessions) Create(req *http.Request) ([]byte, *HttpError) {
 		return nil, BadRequestErr
 	}
 
-	user, err := StoreM.User.FindBy(lgoinInfo.Username)
+	user, err := StoreM.User.FindBy(lgoinInfo.Email)
 	if err != nil {
 		log.Errorln("session query database,", err)
 		return nil, DBErr
@@ -38,6 +39,7 @@ func (s *Sessions) Create(req *http.Request) ([]byte, *HttpError) {
 		return nil, IncorrectAccountErr
 	}
 
+	user.Token = models.CreateTokenFor(user)
 	//respose do
 	output, err := json.Marshal(WrapRespData(user))
 	if err != nil {

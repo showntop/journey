@@ -19,13 +19,13 @@ func (p *ProjectStore) FindWithTag(tagId int64, offset, limit int) ([]*models.Pr
 func (p *ProjectStore) FindWithKey(key string, offset, limit int) ([]*models.Project, error) {
 	key = "%" + key + "%"
 	var projects []*models.Project
-	err := p.Master.Preload("Tags").Select("projects.id, projects.name, projects.version, projects.size, projects.logo_url, projects.download_url").Where("name like ? or description like ?", key, key).Find(&projects).Error
+	err := p.Master.Preload("Tags").Select("projects.id, projects.name, projects.version, projects.size, projects.logo_url, projects.dlink").Where("name like ? or description like ?", key, key).Find(&projects).Error
 	return projects, err
 }
 
 func (p *ProjectStore) FindAll(offset, limit int) ([]*models.Project, error) {
 	projects := []*models.Project{}
-	err := p.Master.Preload("Tags").Select("projects.id, projects.name, projects.version, projects.size, projects.logo_url, projects.download_url").Offset(offset).Limit(limit).Find(&projects).Error
+	err := p.Master.Preload("Tags").Select("projects.id, projects.name, projects.version, projects.size, projects.logo_url, projects.dlink").Offset(offset).Limit(limit).Find(&projects).Error
 	fmt.Println("")
 	// fmt.Printf("%v", rows)
 	return projects, err

@@ -1,6 +1,11 @@
 package handlers
 
-import ()
+import (
+	"fmt"
+	"net/http"
+
+	"github.com/showntop/journey/models"
+)
 
 type application struct {
 }
@@ -30,4 +35,15 @@ func WrapRespData(data interface{}) map[string]interface{} {
 	result["state_code"] = 200
 	result["message"] = "成功"
 	return result
+}
+
+func (a *application) AuthUser(req *http.Request) (*models.User, error) {
+	token := req.Header.Get("Sun-Token")
+
+	value, ok := models.StoreM.Cache.Get(fmt.Sprintf("%s%s", models.KEY_NAMESPACE, token))
+	if !ok {
+		return nil, fmt.Errorf("token can not auth %s", "error")
+	}
+	user := value.(models.User)
+	return &user, nil
 }

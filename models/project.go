@@ -22,7 +22,7 @@ type Project struct {
 
 type Tag struct {
 	Base
-	Name string
+	Name string `json:"name"`
 	// Projects []Project `gorm:"many2many:project_tags;"`
 }
 

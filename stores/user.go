@@ -16,7 +16,7 @@ func (u *UserStore) Create(user *models.User) error {
 
 func (u *UserStore) FindBy(filedV string) (*models.User, error) {
 	user := &models.User{}
-	err := u.Master.Where("username = ?", filedV).First(user)
+	err := u.Master.Where("email = ?", filedV).First(user)
 	if err.RecordNotFound() {
 		return nil, nil
 	}

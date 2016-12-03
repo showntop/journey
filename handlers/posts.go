@@ -13,7 +13,7 @@ import (
 )
 
 type Posts struct {
-	*application
+	application
 }
 
 func (p *Posts) List(req *http.Request, ps httprouter.Params) ([]byte, *HttpError) {
@@ -37,11 +37,15 @@ func (p *Posts) List(req *http.Request, ps httprouter.Params) ([]byte, *HttpErro
 	return output, nil
 }
 
-func (u *Posts) Create(req *http.Request) ([]byte, *HttpError) {
+func (u *Posts) Create(req *http.Request, ps httprouter.Params) ([]byte, *HttpError) {
+	user, err := u.AuthUser(req)
+	if err != nil {
+		return nil, IncorrectAccountErr
+	}
 	//request do
 	var post models.Post
 	decoder := json.NewDecoder(req.Body)
-	err := decoder.Decode(&post)
+	err = decoder.Decode(&post)
 	if err != nil {
 		return nil, BadRequestErr
 	}
@@ -49,6 +53,7 @@ func (u *Posts) Create(req *http.Request) ([]byte, *HttpError) {
 	//did has the better way or separate into reqmodel  sqlmodel  repmodel
 	//post.valid
 	//save
+	post.UserId = user.Id
 	err = StoreM.Post.Create(&post)
 
 	if err != nil {
