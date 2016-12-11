@@ -9,6 +9,10 @@
 			"Rev": "3ec0642a7fb6488f65b06f9040adc67e3990296a"
 		},
 		{
+			"ImportPath": "github.com/golang/groupcache/lru",
+			"Rev": "a6b377e3400b08991b80d6805d627f347f983866"
+		},
+		{
 			"ImportPath": "github.com/jinzhu/gorm",
 			"Comment": "v1.0-96-g066abce",
 			"Rev": "066abcef408f2522f0a89952e44ab17eac176ed0"
@@ -41,6 +45,11 @@
 			"ImportPath": "github.com/lib/pq/oid",
 			"Comment": "go1.0-cutoff-127-gd8eeeb8",
 			"Rev": "d8eeeb8bae8896dd8e1b7e514ab0d396c4f12a1b"
+		},
+		{
+			"ImportPath": "github.com/satori/go.uuid",
+			"Comment": "v1.1.0-1-g0aa62d5",
+			"Rev": "0aa62d5ddceb50dbcb909d790b5345affd3669b6"
 		},
 		{
 			"ImportPath": "golang.org/x/crypto/bcrypt",
