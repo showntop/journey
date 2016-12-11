@@ -12,7 +12,7 @@ type User struct {
 	Username       string `json:"username"`
 	Name           string `json:"name"`
 	Email          string `json:"email"`
-	Mobile         string `json:"mobile"`
+	Mobile         string `json:"mobile" sql:"-"`
 	Password       string `json:"password" sql:"-"`
 	HashedPassword string `json:"password" sql:"hashed_password"`
 

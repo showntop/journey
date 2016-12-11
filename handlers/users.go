@@ -29,7 +29,7 @@ func (u *Users) Create(req *http.Request) ([]byte, *HttpError) {
 	//only allowed name field
 	//did has the better way or separate into reqmodel  sqlmodel  repmodel
 	user := &models.User{
-		Username: signupInfo.Username,
+		Username: "u" + signupInfo.Email,
 		Password: signupInfo.Password,
 		Mobile:   signupInfo.Mobile,
 		Email:    signupInfo.Email,
