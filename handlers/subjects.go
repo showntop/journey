@@ -35,3 +35,19 @@ func (p *Subjects) List(req *http.Request, ps httprouter.Params) ([]byte, *HttpE
 	}
 	return output, nil
 }
+
+func (p *Subjects) Show(req *http.Request, ps httprouter.Params) ([]byte, *HttpError) {
+
+	key := "植物"
+
+	projects, err := StoreM.Project.FindWithKey(key, 0, 6)
+	if err != nil {
+		return nil, DBErr
+	}
+	output, err := json.Marshal(WrapRespData(projects))
+	if err != nil {
+		log.Warnln("projects marshal projects,", err)
+		return output, BadRespErr
+	}
+	return output, nil
+}
