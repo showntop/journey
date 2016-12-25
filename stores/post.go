@@ -10,7 +10,7 @@ type PostStore struct {
 
 func (p *PostStore) FindByProject(projectId int, offset, limit int) ([]*models.Post, error) {
 	posts := []*models.Post{}
-	err := p.Master.Offset(offset).Limit(limit).Model(&posts).Related(&[]*models.PostComment{}).Error
+	err := p.Master.Where("project_id = ?", projectId).Find(&posts).Error
 	//pos
 	return posts, err
 }

@@ -24,6 +24,7 @@ func (u *Users) Create(req *http.Request) ([]byte, *HttpError) {
 	decoder := json.NewDecoder(req.Body)
 	err := decoder.Decode(&signupInfo)
 	if err != nil {
+		log.Warnln(err)
 		return nil, BadRequestErr
 	}
 	//only allowed name field
@@ -38,6 +39,7 @@ func (u *Users) Create(req *http.Request) ([]byte, *HttpError) {
 		return nil, ServerErr
 	}
 	if verr := user.Validate(); verr != nil {
+		log.Warnln(verr)
 		return nil, BadRequestErr
 	}
 

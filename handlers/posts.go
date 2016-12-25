@@ -18,7 +18,7 @@ type Posts struct {
 
 func (p *Posts) List(req *http.Request, ps httprouter.Params) ([]byte, *HttpError) {
 	queryValues := req.URL.Query()
-	projectId, _ := strconv.Atoi(ps.ByName("project_id"))
+	projectId, _ := strconv.Atoi(ps.ByName("id"))
 	pageNo, _ := strconv.Atoi(queryValues.Get("page_no"))
 	pageNum, _ := strconv.Atoi(queryValues.Get("page_num"))
 
@@ -54,6 +54,7 @@ func (u *Posts) Create(req *http.Request, ps httprouter.Params) ([]byte, *HttpEr
 	//post.valid
 	//save
 	post.UserId = user.Id
+	post.ProjectId, _ = strconv.ParseInt(ps.ByName("id"), 10, 64)
 	err = StoreM.Post.Create(&post)
 
 	if err != nil {
@@ -96,9 +97,9 @@ func (p *Posts) CreateLike(req *http.Request, ps httprouter.Params) ([]byte, *Ht
 
 func (p *Posts) CreateComment(req *http.Request, ps httprouter.Params) ([]byte, *HttpError) {
 	//request do
-	var postLike models.PostLike
+	var postComment models.PostComment
 	decoder := json.NewDecoder(req.Body)
-	err := decoder.Decode(&postLike)
+	err := decoder.Decode(&postComment)
 	if err != nil {
 		return nil, BadRequestErr
 	}
@@ -106,13 +107,13 @@ func (p *Posts) CreateComment(req *http.Request, ps httprouter.Params) ([]byte, 
 	//did has the better way or separate into reqmodel  sqlmodel  repmodel
 	//post.valid
 	//save
-	err = StoreM.Post.CreateLike(&postLike)
+	err = StoreM.Post.CreateComment(&postComment)
 	if err != nil {
 		return nil, DBErr
 	}
 
 	//respose do
-	output, err := json.Marshal(WrapRespData(postLike))
+	output, err := json.Marshal(WrapRespData(postComment))
 	if err != nil {
 		return output, BadRespErr
 	}

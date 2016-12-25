@@ -4,7 +4,7 @@ import ()
 
 type Post struct {
 	Base
-	ProjectId  int            `json:"project_id"`
+	ProjectId  int64          `json:"project_id"`
 	Content    string         `json:"content"`
 	UserId     int            `json:"user_id"`
 	Comments   []*PostComment `json:"comments"`

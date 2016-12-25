@@ -2,7 +2,7 @@
 require 'rubygems'
 require 'multi_json'
 require 'pp'
-require 'pg'
+#require 'pg'
 
 require './category'
 require './project'

@@ -2,7 +2,7 @@ package models
 
 import (
 	// "strings"
-	"errors"
+	// "errors"
 
 	"golang.org/x/crypto/bcrypt"
 )
@@ -20,9 +20,9 @@ type User struct {
 }
 
 func (u *User) Validate() error {
-	if len(u.Username) > 10 {
-		return errors.New("用户名长度超限")
-	}
+	// if len(u.Username) > 50 {
+	// 	return errors.New("用户名长度超限")
+	// }
 	return nil
 }
 
