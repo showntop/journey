@@ -6,10 +6,10 @@
 	"database":{
 		"addr":     "rm-2ze050wdgp7mr35nk.pg.rds.aliyuncs.com:3433",
 		"user":     "journey",
-		"password": "Journey123",
+		"password": "Journey2016",
 		"dbname":   "journey"
 	},
-	"dbstr": "postgres://journey:Journey123@rm-2ze050wdgp7mr35nk.pg.rds.aliyuncs.com:3433/journey",
+	"dbstr": "postgres://journey:Journey2016@rm-2ze050wdgp7mr35nk.pg.rds.aliyuncs.com:3433/journey",
 	"redis": {
         "addr": ["",""],
         "passwd": "",
