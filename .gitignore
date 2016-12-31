@@ -25,3 +25,4 @@ _testmain.go
 log/develop.log
 db/data/tmp*sql*
 journey.db.tar.gz
+journey
