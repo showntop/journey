@@ -56,27 +56,29 @@ func main() {
 	// 		}).Fatal("The server breaks!")
 	// 	}
 	// }()
+
 	log.SetFormatter(&log.TextFormatter{})
 
 	if Config.Env == "develop" {
 		log.SetOutput(os.Stdout)
 	} else {
-		f, err := os.OpenFile(Config.LogPath, os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0644)
+		f, err := os.OpenFile(Config.LogPath, os.O_CREATE|os.O_APPEND|os.O_WRONLY, 0644)
 		if err != nil {
 			log.Error(err)
 		}
 		log.SetOutput(f)
 		log.SetLevel(4)
 	}
+
 	//init backend
 	stores.SetupStorage()
-
+	log.WithField("server", "starting").Info("storage inited...")
 	// init http server
 	ms := &Middleware{mmux: http.DefaultServeMux}
 	// ms.AddBeforeFilter(Filter(handlers.ParseLocale))
 	// ms.AddBeforeFilter(Filter(handlers.AuthUser))
 	mux := ms.mmux
 	mux.Handle("/", routes.Instrument())
-	log.WithField("time", time.Now()).Infof("starting in development on %s", Config.ServerPort)
+	log.WithField("time", time.Now()).Infof("starting in %s on %s", Config.Env, Config.ServerPort)
 	log.Fatal(http.ListenAndServe(Config.ServerPort, ms))
 }

@@ -1,3 +1,3 @@
-[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
-[34mINFO[0m[0005] starting in development on :8000              [34mtime[0m=2017-01-01 00:37:10.319061745 +0800 CST
-[34mINFO[0m[0000] init storage...                               [34mserver[0m=starting
+[31mERRO[0m[0075] dial tcp 100.114.132.101:3433: getsockopt: operation timed out 
+[34mINFO[0m[0075] storage inited...                             [34mserver[0m=starting
+[34mINFO[0m[0075] starting in production on :8000               [34mtime[0m=2017-01-01 01:48:22.646495765 +0800 CST

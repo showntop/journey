@@ -3,7 +3,6 @@ package models
 import (
 	"fmt"
 
-	log "github.com/Sirupsen/logrus"
 	"github.com/golang/groupcache/lru"
 	"github.com/satori/go.uuid"
 )
@@ -20,7 +19,6 @@ var StoreM *Store = &Store{}
 
 func init() {
 	StoreM.Cache = lru.New(100)
-	log.WithField("server", "starting").Info("init storage success...")
 }
 
 type Token struct {

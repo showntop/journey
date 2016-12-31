@@ -21,7 +21,7 @@
     },
 	"default_locale": "zh-cn",
 	"log_level": 5,
-	"env": "0",
+	"env": "develop",
 	"log_path":"./log/develop.log",
     "tmpl_path": "./views",
     "i18n_path": "",

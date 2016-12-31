@@ -29,7 +29,6 @@ var (
 )
 
 func SetupStorage() {
-	log.WithField("server", "starting").Info("init storage...")
 	StoreM = &Store{}
 	StoreM.Master = setupDB()
 

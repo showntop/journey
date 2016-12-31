@@ -27,12 +27,9 @@ var (
 )
 
 func init() {
-	confEnv := flag.String("e", "develop", "Env mode")
+	confPath := flag.String("c", "./config/conf.develop.json", "config file")
 	flag.Parse()
 	//load conf
-	Config.Env = *confEnv
-	confPath := flag.String("c", "./config/conf."+*confEnv+".json", "Config file")
-	fmt.Println(*confPath)
 	configFile, err := os.Open(*confPath)
 	if err != nil {
 		fmt.Println("opening config file", err.Error())
@@ -40,8 +37,5 @@ func init() {
 	jsonParser := json.NewDecoder(configFile)
 	if err = jsonParser.Decode(&Config); err != nil {
 		fmt.Println("parsing config file", err.Error())
-	}
-	if port := os.Getenv("PORT"); port != "" {
-		Config.ServerPort = ":" + port
 	}
 }

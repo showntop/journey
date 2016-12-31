@@ -21,8 +21,8 @@
     },
 	"default_locale": "zh-cn",
 	"log_level": 4,
-	"env": "0",
-	"log_path":"./log/production.log",
+	"env": "production",
+	"log_path":"/tmp/journey.production.log",
     "tmpl_path": "./views",
     "i18n_path": "",
 	"server_port": ":8000"
