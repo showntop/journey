@@ -2,8 +2,11 @@ package handlers
 
 import (
 	// "encoding/json"
+	"fmt"
 	"net/http"
 	// log "github.com/Sirupsen/logrus"
+
+	. "github.com/showntop/journey/config"
 )
 
 type Components struct {
@@ -11,31 +14,31 @@ type Components struct {
 }
 
 func (p *Components) List(req *http.Request) ([]byte, *HttpError) {
-
+	activityPath := fmt.Sprintf("%s%s", Config.Host["domain"], "/api/v1/apps?page_num=10")
 	dataStr := `
 	{
 		"data": [
 			{
 				"name": "活动",
 				"icon": "http://oizfueie4.bkt.clouddn.com/assets/components/activity.png",
-				"api_path": "http://192.168.1.113:8000/api/v1/apps?page_num=10"
+				"api_path": "` + activityPath + `"
 			},			
 			{
 				"name": "最热",
 				"icon": "http://oizfueie4.bkt.clouddn.com/assets/components/hot.png",
-				"api_path": "http://192.168.1.113:8000/api/v1/apps?page_num=10"
+				"api_path": "` + activityPath + `"
 			},
 			
 			{
 				"name": "推荐",
 				"icon": "http://oizfueie4.bkt.clouddn.com/assets/components/recommend.png",
-				"api_path": "http://192.168.1.113:8000/api/v1/apps?page_num=10"
+				"api_path": "` + activityPath + `"
 			},
 			
 			{
 				"name": "破解",
 				"icon": "http://oizfueie4.bkt.clouddn.com/assets/components/unlock.png",
-				"api_path": "http://192.168.1.113:8000/api/v1/apps?page_num=10"
+				"api_path": "` + activityPath + `"
 			}
 	
 		],

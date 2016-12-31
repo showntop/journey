@@ -1,6 +1,7 @@
 {
 	"host":{
-		
+		"domain": "https://journey-68524.herokuapp.com",
+		"qiniud": ""
 	},
 	"database":{
 		"addr":     "ec2-54-243-201-19.compute-1.amazonaws.com:5432",
