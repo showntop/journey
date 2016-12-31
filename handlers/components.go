@@ -17,30 +17,24 @@ func (p *Components) List(req *http.Request) ([]byte, *HttpError) {
 		"data": [
 			{
 				"name": "活动",
-				"icon": "http://ohan0t6mr.bkt.clouddn.com/activity.png",
+				"icon": "http://oizfueie4.bkt.clouddn.com/assets/components/activity.png",
 				"api_path": "http://192.168.1.113:8000/api/v1/apps?page_num=10"
 			},			
 			{
 				"name": "最热",
-				"icon": "http://ohan0t6mr.bkt.clouddn.com/hottest.png",
-				"api_path": "http://192.168.1.113:8000/api/v1/apps?page_num=10"
-			},
-			
-			{
-				"name": "最新",
-				"icon": "http://ohan0t6mr.bkt.clouddn.com/latest.png",
+				"icon": "http://oizfueie4.bkt.clouddn.com/assets/components/hot.png",
 				"api_path": "http://192.168.1.113:8000/api/v1/apps?page_num=10"
 			},
 			
 			{
 				"name": "推荐",
-				"icon": "http://ohan0t6mr.bkt.clouddn.com/recommend.png",
+				"icon": "http://oizfueie4.bkt.clouddn.com/assets/components/recommend.png",
 				"api_path": "http://192.168.1.113:8000/api/v1/apps?page_num=10"
 			},
 			
 			{
 				"name": "破解",
-				"icon": "http://ohan0t6mr.bkt.clouddn.com/unlock.png",
+				"icon": "http://oizfueie4.bkt.clouddn.com/assets/components/unlock.png",
 				"api_path": "http://192.168.1.113:8000/api/v1/apps?page_num=10"
 			}
 	
