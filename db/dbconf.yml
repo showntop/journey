@@ -5,3 +5,4 @@ development:
 production:
     driver: postgres
     open: host=rm-2ze050wdgp7mr35nk.pg.rds.aliyuncs.com port=3433 user=journey dbname=journey password=Journey2016 sslmode=disable
+
