@@ -57,12 +57,17 @@ func main() {
 	// 	}
 	// }()
 	log.SetFormatter(&log.TextFormatter{})
-	// f, err := os.OpenFile(Config.LogPath, os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0644)
-	// if err != nil {
-	// 	log.Error(err)
-	// }
-	log.SetOutput(os.Stdout)
-	log.SetLevel(Config.LogLevel)
+
+	if Config.Env == "develop" {
+		log.SetOutput(os.Stdout)
+	} else {
+		f, err := os.OpenFile(Config.LogPath, os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0644)
+		if err != nil {
+			log.Error(err)
+		}
+		log.SetOutput(f)
+		log.SetLevel(4)
+	}
 	//init backend
 	stores.SetupStorage()
 

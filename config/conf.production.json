@@ -1,0 +1,29 @@
+{
+	"host":{
+		"domain": "https://www.wimill.com",
+		"qiniud": ""
+	},
+	"database":{
+		"addr":     "rm-2ze050wdgp7mr35nk.pg.rds.aliyuncs.com:3433",
+		"user":     "journey",
+		"password": "Journey123",
+		"dbname":   "journey"
+	},
+	"dbstr": "postgres://journey:Journey123@rm-2ze050wdgp7mr35nk.pg.rds.aliyuncs.com:3433/journey",
+	"redis": {
+        "addr": ["",""],
+        "passwd": "",
+        "poolsize": 10,
+        "idletimeout": 300,
+        "dialtimeout": 10,
+        "readtimeout": 5,
+        "writetimeout": 10
+    },
+	"default_locale": "zh-cn",
+	"log_level": 4,
+	"env": "0",
+	"log_path":"./log/production.log",
+    "tmpl_path": "./views",
+    "i18n_path": "",
+	"server_port": ":8000"
+}

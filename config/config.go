@@ -27,10 +27,12 @@ var (
 )
 
 func init() {
-	confPath := flag.String("c", "./config/conf.json", "Config file")
+	confEnv := flag.String("e", "develop", "Env mode")
 	flag.Parse()
 	//load conf
-	log.Debug("log file:" + *confPath)
+	Config.Env = *confEnv
+	confPath := flag.String("c", "./config/conf."+*confEnv+".json", "Config file")
+	fmt.Println(*confPath)
 	configFile, err := os.Open(*confPath)
 	if err != nil {
 		fmt.Println("opening config file", err.Error())
