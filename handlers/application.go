@@ -24,6 +24,8 @@ var (
 	BadRequestErr2      = &HttpError{401, "invalid query key/value pair"}
 	IncorrectAccountErr = &HttpError{402, "用户名或者密码错误"}
 
+	InvalidTokenErr = &HttpError{401, "无效的token或者token已失效"}
+
 	ServerErr  = &HttpError{500, "server error"}
 	DBErr      = &HttpError{503, "db error"}
 	BadRespErr = &HttpError{503, "response format error"}

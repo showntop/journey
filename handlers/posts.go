@@ -40,7 +40,7 @@ func (p *Posts) List(req *http.Request, ps httprouter.Params) ([]byte, *HttpErro
 func (u *Posts) Create(req *http.Request, ps httprouter.Params) ([]byte, *HttpError) {
 	user, err := u.AuthUser(req)
 	if err != nil {
-		return nil, IncorrectAccountErr
+		return nil, InvalidTokenErr
 	}
 	//request do
 	var post models.Post
