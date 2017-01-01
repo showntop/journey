@@ -10,7 +10,7 @@ $tables = {
   project_tags: ['id', 'project_id', 'tag_id'],
 }
 
-project_keys = ['id','name','description','version','size','dlink','logo_url','category_id', 'created_at', 'updated_at', 'assets'],
+$project_keys = ['id','name','description','version','size','dlink','logo_url','category_id', 'created_at', 'updated_at', 'assets'],
 
 def seed_sql file, sql
   file.puts sql
@@ -38,13 +38,14 @@ end
 
 projects = $conn.exec("select * from projects").values
 
-project_file = File.open( "./tmp_project.sql", "w") 
+project_file = File.open( "./tmp_projects.sql", "w") 
 projects.each do |p|
   project_assets = $conn.exec("select url from project_assets where project_id = " + p[0]).values
-  p.pop()
+  #p.pop()
   p.push("{#{project_assets.join(',')}}")
   valuestr = p.join("','")
-  sql = "insert into projects(#{project_keys.join(',')}) values('#{valuestr}');"
+  columns =  ['id','name','description','version','size','dlink','logo_url','category_id', 'created_at', 'updated_at', 'assets']
+  sql = "insert into projects(#{columns.join(',')}) values('#{valuestr}');"
   project_file.puts sql
 end
 project_file.close
