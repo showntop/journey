@@ -32,6 +32,7 @@ func Instrument() *httprouter.Router {
 			"message":    "",
 			"data": map[string]interface{}{
 				"version":      "1.0.0",
+				"version_code": 1,
 				"descriptioin": "1.最全的游戏内容\n2.全新的app体验",
 				"dlink":        "http://oizfueie4.bkt.clouddn.com/package/release/fengchezhushou_v1.0.0.apk",
 			},
