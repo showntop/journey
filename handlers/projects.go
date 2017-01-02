@@ -44,6 +44,8 @@ func (p *Projects) List(req *http.Request) ([]byte, *HttpError) {
 	// 	projects, err = StoreM.Project.FindAllByCategory(categoryId, pageNo, pageNum)
 	// }
 
+	categoryId, _ = strconv.ParseInt(req.URL.Query().Get("category_id"), 10, 64)
+
 	var projects []*models.Project
 	if categoryId <= 0 {
 		projects, err = StoreM.Project.FindAll((pageNo-1)*pageNum, pageNum)
