@@ -25,6 +25,20 @@ func WrapErrorResp(err *handlers.HttpError) []byte {
 func Instrument() *httprouter.Router {
 	router := httprouter.New()
 
+	router.GET("/api/versions/latest", func(rw http.ResponseWriter, req *http.Request, ps httprouter.Params) {
+		rw.Header().Set("Content-Type", "application/json")
+		results, _ := json.Marshal(map[string]interface{}{
+			"state_code": 200,
+			"message":    "",
+			"data": map[string]interface{}{
+				"version":      "1.0.0",
+				"descriptioin": "1.最全的游戏内容\n2.全新的app体验",
+				"dlink":        "http://oizfueie4.bkt.clouddn.com/package/release/fengchezhushou_v1.0.0.apk",
+			},
+		})
+		rw.Write(results)
+	})
+
 	router.GET("/api/v1/subjects", func(rw http.ResponseWriter, req *http.Request, ps httprouter.Params) {
 		rw.Header().Set("Content-Type", "application/json")
 		SubjectsC := new(handlers.Subjects)
