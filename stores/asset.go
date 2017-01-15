@@ -13,7 +13,7 @@ type AssetStore struct {
 var (
 	bootAssets = [...]*models.Asset{
 		&models.Asset{
-			URL:    "http://oginbhz1c.bkt.clouddn.com/5882b2b7d0a20cf482c772bf73094b36acaf997f.jpg",
+			URL:    "http://oizfueie4.bkt.clouddn.com/assets/boots/splashPage.png",
 			Action: "com.hotkuy.app.android.activity.WebViewActivity",
 			Params: "urlStr:htttp://www.baidu.com",
 		},
@@ -21,22 +21,22 @@ var (
 
 	bannerAssets = [...]*models.Asset{
 		&models.Asset{
-			URL:    "http://oginbhz1c.bkt.clouddn.com/5882b2b7d0a20cf482c772bf73094b36acaf997f.jpg",
+			URL:    "http://oizfueie4.bkt.clouddn.com/assets/banners/banner_xiaoxiaole.jpg",
 			Action: "com.hotkuy.app.android.activity.WebViewActivity",
 			Params: "urlStr:htttp://www.baidu.com",
 		},
 		&models.Asset{
-			URL:    "http://oginbhz1c.bkt.clouddn.com/5882b2b7d0a20cf482c772bf73094b36acaf997f.jpg",
+			URL:    "http://oizfueie4.bkt.clouddn.com/assets/banners/banner_dnfphoto.png",
 			Action: "com.hotkuy.app.android.activity.WebViewActivity",
 			Params: "urlStr:htttp://www.baidu.com",
 		},
 		&models.Asset{
-			URL:    "http://oginbhz1c.bkt.clouddn.com/5882b2b7d0a20cf482c772bf73094b36acaf997f.jpg",
+			URL:    "http://oizfueie4.bkt.clouddn.com/banner_wangzherongyao.jpg",
 			Action: "com.hotkuy.app.android.activity.WebViewActivity",
 			Params: "urlStr:htttp://www.baidu.com",
 		},
 		&models.Asset{
-			URL:    "http://oginbhz1c.bkt.clouddn.com/5882b2b7d0a20cf482c772bf73094b36acaf997f.jpg",
+			URL:    "http://oizfueie4.bkt.clouddn.com/assets/banners/banner_yinyangshi.png",
 			Action: "com.hotkuy.app.android.activity.WebViewActivity",
 			Params: "urlStr:htttp://www.baidu.com",
 		},
