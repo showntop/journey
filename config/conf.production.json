@@ -4,12 +4,12 @@
 		"qiniud": ""
 	},
 	"database":{
-		"addr":     "rm-2ze050wdgp7mr35nk.pg.rds.aliyuncs.com:3433",
+		"addr":     "127.0.0.1:5432",
 		"user":     "journey",
 		"password": "Journey2016",
 		"dbname":   "journey"
 	},
-	"dbstr": "postgres://journey:Journey2016@rm-2ze050wdgp7mr35nk.pg.rds.aliyuncs.com:3433/journey?sslmode=disable",
+	"dbstr": "postgres://journey:Journey2016@127.0.0.1:5432/journey?sslmode=disable",
 	"redis": {
         "addr": ["",""],
         "passwd": "",
