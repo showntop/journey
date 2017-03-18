@@ -49,7 +49,7 @@ func (p *ProjectStore) FindAllByCategory(cid int64, offset, limit int) ([]*model
 func (u *ProjectStore) Find(id int64) (*models.Project, error) {
 	project := &models.Project{}
 	err := u.Master.First(project, id).Error
-	for i := len(project.Assets); i >= 0; i-- {
+	for i := len(project.Assets) - 1; i >= 0; i-- {
 		project.Assets[i] = QINIU_URL + project.Assets[i]
 	}
 	return project, err
