@@ -38,7 +38,7 @@ var (
 		&models.Asset{
 			URL:    "http://oizfueie4.bkt.clouddn.com/assets/banners/banner_yinyangshi.png",
 			Action: "com.hotkuy.app.android.activity.IntroduceActivity",
-			Params: "app_id:10005",
+			Params: "app_id:200001",
 		},
 	}
 )
