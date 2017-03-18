@@ -11,6 +11,7 @@ type Project struct {
 	CategoryId  int         `json:"category_id"`
 	Name        string      `json:"name"`
 	Version     string      `json:"version"`
+	Intro       string      `json:"intro"`
 	Description string      `json:"description"`
 	Size        int         `json:"size"`
 	LogoURL     string      `json:"logo_url"`

@@ -15,7 +15,7 @@ type ProjectStore struct {
 }
 
 func listFields() string {
-	return fmt.Sprintf("projects.id, projects.name, projects.version, projects.size, ('%s'||projects.logo_url) as logo_url, ('%s' || projects.dlink) as dlink", QINIU_URL, QINIU_URL)
+	return fmt.Sprintf("projects.id, projects.name, projects.version, projects.size, projects.intro, ('%s'||projects.logo_url) as logo_url, ('%s' || projects.dlink) as dlink", QINIU_URL, QINIU_URL)
 }
 
 func (p *ProjectStore) FindWithTag(tagId int64, offset, limit int) ([]*models.Project, error) {
