@@ -53,5 +53,6 @@ func (u *ProjectStore) Find(id int64) (*models.Project, error) {
 	for i := len(project.Assets) - 1; i >= 0; i-- {
 		project.Assets[i] = QINIU_URL + project.Assets[i]
 	}
+	project.Dlink = QINIU_URL + project.Dlink
 	return project, err
 }
