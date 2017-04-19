@@ -37,9 +37,9 @@ var (
 			Params: "app_id:200001",
 		},
 		&models.Asset{
-			URL:    "http://oizfueie4.bkt.clouddn.com/banner_wangzherongyao.jpg",
+			URL:    "http://ohan0t6mr.bkt.clouddn.com/bar/jpg/wangzherongyao.jpg",
 			Action: "com.hotkuy.app.android.activity.IntroduceActivity",
-			Params: "app_id:10004",
+			Params: "app_id:200002",
 		},
 	}
 )

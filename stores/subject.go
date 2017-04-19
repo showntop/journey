@@ -14,3 +14,9 @@ func (c *SubjectStore) FindAll(offset, limit int) ([]*models.Subject, error) {
 
 	return subjects, err
 }
+
+func (u *SubjectStore) Find(id int64) (*models.Subject, error) {
+	subject := &models.Subject{}
+	err := u.Master.First(subject, id).Error
+	return subject, err
+}
