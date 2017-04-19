@@ -20,24 +20,24 @@ func (p *Components) List(req *http.Request) ([]byte, *HttpError) {
 		"data": [
 			{
 				"name": "活动",
-				"icon": "http://oizfueie4.bkt.clouddn.com/assets/components/activity.png",
+				"icon": "http://ohan0t6mr.bkt.clouddn.com/assets/components/huodong.png",
 				"api_path": "` + activityPath + "&page_no=3" + `"
 			},			
 			{
 				"name": "最热",
-				"icon": "http://oizfueie4.bkt.clouddn.com/assets/components/hot.png",
+				"icon": "http://ohan0t6mr.bkt.clouddn.com/assets/components/zuire.png",
 				"api_path": "` + activityPath + "&page_no=2" + `"
 			},
 			
 			{
 				"name": "推荐",
-				"icon": "http://oizfueie4.bkt.clouddn.com/assets/components/recommend.png",
+				"icon": "http://ohan0t6mr.bkt.clouddn.com/assets/components/tuijian.png",
 				"api_path": "` + activityPath + "&page_no=4" + `"
 			},
 			
 			{
 				"name": "破解",
-				"icon": "http://oizfueie4.bkt.clouddn.com/assets/components/unlock.png",
+				"icon": "http://ohan0t6mr.bkt.clouddn.com/assets/components/pojie.png",
 				"api_path": "` + activityPath + "&page_no=5" + `"
 			}
 	

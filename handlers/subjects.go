@@ -39,6 +39,13 @@ func (p *Subjects) List(req *http.Request, ps httprouter.Params) ([]byte, *HttpE
 func (p *Subjects) Show(req *http.Request, ps httprouter.Params) ([]byte, *HttpError) {
 
 	key := "植物"
+	sid, _ := strconv.ParseInt(ps.ByName("id"), 10, 64)
+	subject, err := StoreM.Subject.Find(sid)
+	if err != nil {
+		return nil, DBErr
+	}
+
+	key = subject.Params
 
 	projects, err := StoreM.Project.FindWithKey(key, 0, 6)
 	if err != nil {
